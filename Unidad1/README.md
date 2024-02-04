@@ -143,5 +143,37 @@ R/= Un computador de 8 bits puede representar 2^8 = 256 numeros diferentes.
 Lo recomendable no usar todos esos valores en solo los numeros positivos, 
 mas bien usar la mitad de este en 127 numeros positivos, 0 y 127 numeros negativos.   
 
-5.
-   
+5. ¿Cuál es la representación binaria del número en 8 bits del número 128?
+
+R/= Seria 128 = 1 0 0 0 0 0 0 0 0 
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/35d80fa9-8b20-417e-9252-8fdc98b34b90)
+
+6. ¿Qué es un overflow en una suma binaria? inventa un ejemplo.
+
+R/= Un iverflow en una suma binaria, ocurre cuando los ultimos digitos de la operación se suma y 
+dan como resultado un 1 mas para agregar. En este caso lo mejor es que simplemente  no hagamos nada con el, 
+y nos que demos como quedo el resultado final.
+
+         1 0 1 0 1 1 0 1
+       + 1 1 0 1 1 1 1 1
+       ___________________ 
+         1 0 0 0 1 1 0 0 
+
+Al final de la operacion me quedaba un 1 demas por agregar, pero no se puede por que no hay nada que hacer por el.
+
+## Micro sesión de Cierre
+Al fin logre entender en si (creo), en como funciona o se convierte un numero entero a numero binario, 
+el cual conciste en dividir el numero entero por dos, y seguir diviendo el resultado de la operación anterior
+hasta quede 1 (1/2 = 0), despues con los resultados sacados de la abstración de numero, se usan para crear el numero binario,
+estos siempre se lee de manera inversa, es decir el ultimo resultado de la abstración es el primero que se lee y el primero es 
+ultimo en ser leido. Recuerda que si el numero es divisible por dos exacto el resultado en la abstracion es 0 y si no es divisible
+exacto sera un 1. y claro junto a la suma Overflow, solo que creo que varia segun el numero de bits.
+
+En lo demas creo que voy entendiendo de a poquito, aun asi me parece un gran paso en haber captado en como se crean los 
+numeros binarios, espero que puede seguir entendiendo el tema hasta que le coja el tiro.
+
+
+
+
+  
