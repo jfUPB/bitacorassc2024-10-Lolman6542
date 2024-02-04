@@ -98,3 +98,50 @@ Compuerta Logica es un componente electroinico encargado de operar entradas para
 que en si es una tabla de verdad (¿creo?). Tambien el profesor me colaboro con unos ajustes en como crear un repositorio
 privado y en como agregar colaboradores a este. Resulta que mi error era que habia ingresado con otro correo.
 Debo de repasar estos videos de la actividades que coloque y apartar dudas para la proxima clase.
+
+-----------------------------------------------------------------------------------------------------------------
+
+## Semana 2 Domingo 4 de Febreo - Día Autonomo
+
+3. ¿Como seria el circuto logico que representa la función booleana?
+   
+R/= Función(x,y,z)=(x⋅y)+(x⋅z)+(y⋅z) con compuertas lógicas, podemos construir el circuito utilizando compuertas AND, OR y NOT. Aquí está el diseño del circuito: 
+
+``` c
+          _________
+         |         \
+    x ---|          AND ----\
+         |_________/       \
+                              \
+    x ---|          AND ----\  \
+         |_________/       \  OR --- Output
+                              /
+    y ---|          AND ----/  /
+         |_________/       /
+                             /
+    y ---|          AND ---/
+         |_________/
+                             
+    z ---|          AND
+         |_________/
+    z ---|
+
+```
+
+En este circuito:
+-Las entradas x, y , z están conectadas a puertas lógicas AND individuales.
+
+- Las salidas de estas puertas AND se conectan a puertas lógicas OR, que realizan la operación de suma lógica (x⋅y)+(x⋅z)+(y⋅z).
+
+- La salida de la puerta OR es la salida del circuito.
+
+- Este circuito implementa la función booleana deseada utilizando compuertas lógicas estándar.
+
+4.  ¿Cuántos números diferentes puede representar un computador de 8 bits?
+   
+R/= Un computador de 8 bits puede representar 2^8 = 256 numeros diferentes.
+Lo recomendable no usar todos esos valores en solo los numeros positivos, 
+mas bien usar la mitad de este en 127 numeros positivos, 0 y 127 numeros negativos.   
+
+5.
+   
