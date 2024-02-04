@@ -1,4 +1,3 @@
-# Bitácora de aprendizaje
 # Bitácora de aprendizaje - Primera Clase - Lunes 22 de Enero
 
 ## Subtitulos
