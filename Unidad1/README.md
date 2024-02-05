@@ -151,7 +151,7 @@ R/= Seria 128 = 1 0 0 0 0 0 0 0 0
 
 6. ¿Qué es un overflow en una suma binaria? inventa un ejemplo.
 
-R/= Un iverflow en una suma binaria, ocurre cuando los ultimos digitos de la operación se suma y 
+R/= Un overflow en una suma binaria, ocurre cuando los ultimos digitos de la operación se suma y 
 dan como resultado un 1 mas para agregar. En este caso lo mejor es que simplemente  no hagamos nada con el, 
 y nos que demos como quedo el resultado final.
 
@@ -173,7 +173,17 @@ exacto sera un 1. y claro junto a la suma Overflow, solo que creo que varia segu
 En lo demas creo que voy entendiendo de a poquito, aun asi me parece un gran paso en haber captado en como se crean los 
 numeros binarios, espero que puede seguir entendiendo el tema hasta que le coja el tiro.
 
+## Semana 3 Lunes 5 de febreo
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/459a6f15-ecdb-4cf0-b5bd-814f037f87d8)
+
+Como tal hoy nos dedicamos en trabajar en un programa o mas bien un videojuego rompecabeza, llamado 
+Silicon Zeroes, el cual replica la construcción compleja de componentes electronicos como adders, latches
+and multiplexers. 
+
+NOTA: Voy a piratearlo esta noche para ver como funciona el juego.
 
 
+## Micro sesión de cierre
 
   
