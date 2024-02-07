@@ -178,12 +178,51 @@ numeros binarios, espero que puede seguir entendiendo el tema hasta que le coja 
 ![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/459a6f15-ecdb-4cf0-b5bd-814f037f87d8)
 
 Como tal hoy nos dedicamos en trabajar en un programa o mas bien un videojuego rompecabeza, llamado 
-Silicon Zeroes, el cual replica la construcción compleja de componentes electronicos como adders, latches
-and multiplexers. 
+Silicon Zeroes, el cual replica la construcción compleja de componentes electronicos/digitales como adders, latches
+y multiplexers.  
 
-NOTA: Voy a piratearlo esta noche para ver como funciona el juego.
+Un sistema digital es un conjunto de elementos binarios relacionados entre si de alguna manera. Se
+distinguen dos tipos de variables en un sistema digital. Las variables de entrada y las variables de salida que
+dependen de las de entrada. Cuando cada combinación de las variables (Vector de entrada) de entrada se corresponde con una y sólo
+una combinación de las variables de salida (Vector de salida), se trata de un sistema combinacional. Dicho de
+otra manera, siempre que se repita un conjunto de valores de las variables de entrada, se repetirá la salida.
 
+Cuando las funciones lógicas son muy complejas no siempre el diseño basado en la minimización y
+posterior implementación con compuertas lógicas, es el más adecuado. Estos bloques funcionales MSI, si
+bien a veces tienen fines específicos, pueden aplicarse a la implementación de funciones lógicas de muchas
+variables. Las ventajas caen en la disminución de los CI necesarios, del tiempo de diseño, del número de
+conexiones externas y facilita el mantenimiento.
+
+## Codificadores
+- Permiten codificar las líneas de entrada. Generalmente codifican en binario o BCD. 
+- Si ninguna entrada está activa las salidas son todas cero, igual que si estuviera activada la entrada D0.
+- Para evitar este problema los codificadores cuentan con una salida adicional que indica la ausencia de activación
+  de las entradas.
+- Por último los codificadores suelen contar con una entrada de habilitación. Cuando el chip está activado
+  es válida la tabla de verdad, si no lo está el chip no funciona.
+  
+## Decodificadores
+- Son Combinacionales que poseen n entradas y m salidas.
+- El orden adecuado de la salida se activa cuando la codificación correspondiente se inyecta ala entrada.
+- Generalmente son binarios o BCD. En caso de un decodificador binario si tiene n entradas poseerá m = 2n salidas. 
+  Así un decodificador realiza lo opuesto a un codificador.
+
+ ## Multiplexores
+ - Disponen de m = 2n líneas de entrada (canales), una línea de salida y n líneas de selección. En función
+   de las líneas de selección determina qué entrada aparece en la salida.
+ - Los multiplexores, además de multiplexar, pueden usarse eficazmente para implementar funciones lógicas.
+ - Para realizar multiplexores de muchos canales pueden combinarse diferentes multiplexores.
 
 ## Micro sesión de cierre
+Dado el caso con el videojuego de Silicon Zeroes y en sí el tema, busca que las personas entiendan 
+en como los componentes electronicos y digitales funcionan en los gadgets/dispositivos, junto 
+en como implementarlos en estos, para que se puede ahorrar espacio/almacenamiento e incluso
+en reducir o simplificar el proceso o tarea que se este ejecutando, para que le tome tanto el 
+CPU en hacer.
+Ya por aparte con el mismo videojuego (recalco que me descargue una demo) logre llegar hasta el desafio "Memsum"
+el cual me costo en entender, hasta que cai en cuenta que "read" se encargaba de imprimir los valores que estaban
+guardados en memoria, por lo tanto debia de usar el resultado de read y sumarlo con el "adder" para asi poder hallar el 
+numero 7 que me pedian. En general no parece que se duro en entender (creo), mas que todo en como se lee. Recomendable hacer mas de estos ejercicios.
 
-  
+## Semana 3 ???? (en proceso) - Día Autonomo
+
