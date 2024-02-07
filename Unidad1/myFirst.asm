@@ -4,3 +4,5 @@
 // Instrucción tipo C
 // destino = operación;salto
 // operación
+@69
+D=A
