@@ -74,8 +74,6 @@ en que operaciones se puede represantar estas, se de dos que son expresión bool
 siempre sera DOS fijos, ni a medias o nitades, siempre seran un SI o NO, Verdadero o Falso y asi sucesivamente. Debo de repasar este tema y pedirle
 ayuda a ChatGPTE en enteder mas este tema. Dejare esta reflexion por ahora y voy ver si en el transcurso de la semana avanzo en algo.....
 
-----------------------------------------------------------------------------------------------------------------
-
 ## Semana 2 Miercoles 31 de enero
 
 2. Inventa una tabla de verdad de tres entradas y una salida. ¿Cuál es la función booleana que la representa?
@@ -98,8 +96,6 @@ Compuerta Logica es un componente electroinico encargado de operar entradas para
 que en si es una tabla de verdad (¿creo?). Tambien el profesor me colaboro con unos ajustes en como crear un repositorio
 privado y en como agregar colaboradores a este. Resulta que mi error era que habia ingresado con otro correo.
 Debo de repasar estos videos de la actividades que coloque y apartar dudas para la proxima clase.
-
------------------------------------------------------------------------------------------------------------------
 
 ## Semana 2 Domingo 4 de Febreo - Día Autonomo
 
@@ -173,6 +169,8 @@ exacto sera un 1. y claro junto a la suma Overflow, solo que creo que varia segu
 En lo demas creo que voy entendiendo de a poquito, aun asi me parece un gran paso en haber captado en como se crean los 
 numeros binarios, espero que puede seguir entendiendo el tema hasta que le coja el tiro.
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 ## Semana 3 Lunes 5 de febreo
 
 ![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/459a6f15-ecdb-4cf0-b5bd-814f037f87d8)
@@ -223,6 +221,19 @@ Ya por aparte con el mismo videojuego (recalco que me descargue una demo) logre 
 el cual me costo en entender, hasta que cai en cuenta que "read" se encargaba de imprimir los valores que estaban
 guardados en memoria, por lo tanto debia de usar el resultado de read y sumarlo con el "adder" para asi poder hallar el 
 numero 7 que me pedian. En general no parece que se duro en entender (creo), mas que todo en como se lee. Recomendable hacer mas de estos ejercicios.
+
+### Unidad 1: Miercoles 7 de Febrero
+
+## Micro-Sesión 1: Apertura
+
+Lo que hizimos al principio 
+````
+## SEMANA 3
+###Unidad 1: Miercoles Febrero 7
+#### Micro-Sesión 1 :Apertura
+#### Micro-Sesión 2: Cierre
+
+````c
 
 ## Semana 3 ???? (en proceso) - Día Autonomo
 
