@@ -274,3 +274,61 @@ El código ensamblador es un lenguaje de bajo nivel que permite a los programado
 ### Jueves 8 de Febrero - Día Autonomo
 
 #### Micro sesión 1: Apertura
+
+Para esta sesión me dedique a resolver el reto que se no propuso en unidad 1, necesitamos escribir un código en lenguaje ensamblador que funcione en un ciclo infinito y lea el teclado para realizar las acciones especificadas. Aquí tienes un ejemplo de cómo podría ser este código para el simulador CPUEmulator.
+
+``` c
+
+main:
+    ; Bucle infinito
+    jmp main
+
+    ; Rutina para leer el teclado
+read_keyboard:
+    ; Supongamos que la tecla presionada se almacena en el registro R1
+
+    ; Verificar si la tecla presionada es la primera letra de tu primer apellido
+    ; Si es así, muestra una imagen en la pantalla
+    cmp R1, 'P'  ; Cambia 'P' por la primera letra de tu primer apellido
+    je mostrar_imagen
+
+    ; Verificar si la tecla presionada es la última letra de tu primer apellido
+    ; Si es así, borra la pantalla
+    cmp R1, 'a'  ; Cambia 'a' por la última letra de tu primer apellido
+    je borrar_pantalla
+
+    ; Si la última letra de tu apellido es la misma que la primera letra, toma la penúltima y así sucesivamente
+    cmp R1, 'l'  ; Cambia 'l' por la segunda letra de tu primer apellido
+    je tomar_penultima
+
+    ; Si la tecla presionada no corresponde a ninguna de las condiciones anteriores, simplemente continua leyendo el teclado
+    jmp read_keyboard
+
+mostrar_imagen:
+    ; Código para mostrar una imagen en la pantalla
+    ; Esta parte del código dependerá del simulador CPUEmulator y de cómo se maneje la salida de gráficos
+
+    ; Volver a leer el teclado
+    jmp read_keyboard
+
+borrar_pantalla:
+    ; Código para borrar la pantalla
+    ; Esta parte del código dependerá del simulador CPUEmulator y de cómo se maneje la salida de gráficos
+
+    ; Volver a leer el teclado
+    jmp read_keyboard
+
+tomar_penultima:
+    ; Código para tomar la penúltima letra del apellido y compararla con la primera letra
+    ; Si son iguales, se repite el proceso de tomar la penúltima letra hasta encontrar una diferente
+    ; Luego, se procede según la letra encontrada
+
+    ; Volver a leer el teclado
+    jmp read_keyboard
+
+```
+Este es un esquema básico del código. Debes reemplazar las letras 'P' y 'a' por la primera y última letra de tu apellido respectivamente, y ajustar las comparaciones de acuerdo con las letras de tu apellido. Además, debes completar las secciones que muestran una imagen en la pantalla, borran la pantalla y toman la penúltima letra según tus necesidades y las capacidades del simulador CPUEmulator.
+
+#### Micro sesión 2: Cierre
+
+La programación en ensamblador nos sumerge en los cimientos mismos de cómo funciona una computadora, lo que nos brinda un nivel de control y optimización que rara vez se encuentra en lenguajes de programación de más alto nivel. Si bien puede ser laborioso y detallado, el conocimiento adquirido al trabajar con ensamblador es invaluable: nos proporciona una comprensión profunda de la arquitectura del procesador y nos permite optimizar el rendimiento del programa al máximo. A través de este proceso, no solo ganamos habilidades técnicas, sino también una apreciación más profunda de la complejidad y el poder de la tecnología que utilizamos a diario.
