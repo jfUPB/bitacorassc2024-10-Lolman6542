@@ -226,14 +226,21 @@ numero 7 que me pedian. En general no parece que se duro en entender (creo), mas
 
 ## Micro-Sesión 1: Apertura
 
-Lo que hizimos al principio 
-````
+Lo que hizimos al principio fue hablar sobre como deberiamos en organizar nuestras bitacoras con ayuda 
+de los atajos o comandos que usa Github que es MarkDown. Tal cual como se muestra en el ejemplo de abajo:
+
+``` c
+
 ## SEMANA 3
 ###Unidad 1: Miercoles Febrero 7
 #### Micro-Sesión 1 :Apertura
 #### Micro-Sesión 2: Cierre
 
-````c
+```
+Asi nos recomienda que lo dejemos de ahora en adelante.
+
+Luego de eso nos pusimos a trabajar en el CPUEmulator
+
 
 ## Semana 3 ???? (en proceso) - Día Autonomo
 
