@@ -1,6 +1,10 @@
 # Bitácora de aprendizaje - Unidad 1. Arquitectura del Comuputador
 
-## Semana 2 Lunes 29 de enero
+## Semana 2 
+
+### Lunes 29 de enero
+
+#### Micro-Sesión 1: Apertura
 
 Para este principio de la primera unidad, nos encargaremos en estudiar en cómo funciona un computador digital moderno entendiendo 
 cómo hace este para ejecutar un programa en lenguaje ensamblador y la relación entre el lenguaje ensamblador y código de alto nivel. 
@@ -14,7 +18,7 @@ que entendimos ciertos conceptos para poder seguir avanzado el reto. No hay que 
 pero seria lo recomendable que se evidencia algo del trabajo. Tambien podemos empezar a tirar codigo y crear el ejecutable ex15.asm
 en el GitHub.
 
-## Investigación - Preguntas Guía Iniciales
+### Micro-Sesión 2: Investigación - Preguntas Guía Iniciales
 
 1.  Selecciona una función booleana. Representa dicha operación de dos maneras diferentes. ¿Pudiste observar en el video esas dos maneras?
   
@@ -67,14 +71,16 @@ Ahora lo usaremos junto el Logic Gate junto a la expresión AND:
 
 ```
 
+#### Micro sesión 3: Cierre 
 
-## Micro sesión de Cierre
 Hasta el momento ando revisando la primera pregunta y en ver de que va las expresiones Boolenas asumo que la primera pregunta me pide 
 en que operaciones se puede represantar estas, se de dos que son expresión booleana y una tabla de verdad, como tal se que los valores Booleanos
 siempre sera DOS fijos, ni a medias o nitades, siempre seran un SI o NO, Verdadero o Falso y asi sucesivamente. Debo de repasar este tema y pedirle
 ayuda a ChatGPTE en enteder mas este tema. Dejare esta reflexion por ahora y voy ver si en el transcurso de la semana avanzo en algo.....
 
-## Semana 2 Miercoles 31 de enero
+### Miercoles 31 de enero
+
+#### Micro-Sesión 1: Apertura
 
 2. Inventa una tabla de verdad de tres entradas y una salida. ¿Cuál es la función booleana que la representa?
 
@@ -89,7 +95,7 @@ R/=  Inventamos una función que devuelve verdadero (1) si al menos dos de las t
 Esta tabla de verdad representa la función booleana que hemos definido, donde la salida es verdadera (1) 
 si al menos dos de las tres entradas son verdaderas (1), y falso (0) en cualquier otro caso.
 
-## Micro sesión de Cierre
+#### Micro sesión 2: Cierre 
 Hoy por hoy, me dedique a completar el primer punto dado que lo tenia incompleto del primer día.
 Tambien me dedique a en hacer la pregunta 2 y ver los videos 1.2 y 1.3. De lo que tengo entendido es que una
 Compuerta Logica es un componente electroinico encargado de operar entradas para producir una señal de salida
@@ -97,8 +103,9 @@ que en si es una tabla de verdad (¿creo?). Tambien el profesor me colaboro con 
 privado y en como agregar colaboradores a este. Resulta que mi error era que habia ingresado con otro correo.
 Debo de repasar estos videos de la actividades que coloque y apartar dudas para la proxima clase.
 
-## Semana 2 Domingo 4 de Febreo - Día Autonomo
+### Domingo 4 de Febreo - Día Autonomo
 
+#### Micro-Sesión 1: Apertura
 3. ¿Como seria el circuto logico que representa la función booleana?
    
 R/= Función(x,y,z)=(x⋅y)+(x⋅z)+(y⋅z) con compuertas lógicas, podemos construir el circuito utilizando compuertas AND, OR y NOT. Aquí está el diseño del circuito: 
@@ -158,7 +165,7 @@ y nos que demos como quedo el resultado final.
 
 Al final de la operacion me quedaba un 1 demas por agregar, pero no se puede por que no hay nada que hacer por el.
 
-## Micro sesión de Cierre
+#### Micro sesión 2: Cierre 
 Al fin logre entender en si (creo), en como funciona o se convierte un numero entero a numero binario, 
 el cual conciste en dividir el numero entero por dos, y seguir diviendo el resultado de la operación anterior
 hasta quede 1 (1/2 = 0), despues con los resultados sacados de la abstración de numero, se usan para crear el numero binario,
@@ -171,7 +178,11 @@ numeros binarios, espero que puede seguir entendiendo el tema hasta que le coja 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-## Semana 3 Lunes 5 de febreo
+## Semana 3 
+
+### Lunes 5 de febreo
+
+#### Micro sesión 1: Apertura 
 
 ![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/459a6f15-ecdb-4cf0-b5bd-814f037f87d8)
 
@@ -191,7 +202,7 @@ bien a veces tienen fines específicos, pueden aplicarse a la implementación de
 variables. Las ventajas caen en la disminución de los CI necesarios, del tiempo de diseño, del número de
 conexiones externas y facilita el mantenimiento.
 
-## Codificadores
+#### Micro sesión 2: Codificadores
 - Permiten codificar las líneas de entrada. Generalmente codifican en binario o BCD. 
 - Si ninguna entrada está activa las salidas son todas cero, igual que si estuviera activada la entrada D0.
 - Para evitar este problema los codificadores cuentan con una salida adicional que indica la ausencia de activación
@@ -199,19 +210,20 @@ conexiones externas y facilita el mantenimiento.
 - Por último los codificadores suelen contar con una entrada de habilitación. Cuando el chip está activado
   es válida la tabla de verdad, si no lo está el chip no funciona.
   
-## Decodificadores
+#### Micro sesión 3: Decodificadores
 - Son Combinacionales que poseen n entradas y m salidas.
 - El orden adecuado de la salida se activa cuando la codificación correspondiente se inyecta ala entrada.
 - Generalmente son binarios o BCD. En caso de un decodificador binario si tiene n entradas poseerá m = 2n salidas. 
   Así un decodificador realiza lo opuesto a un codificador.
 
- ## Multiplexores
+#### Micro sesión 4: Multiplexores
  - Disponen de m = 2n líneas de entrada (canales), una línea de salida y n líneas de selección. En función
    de las líneas de selección determina qué entrada aparece en la salida.
  - Los multiplexores, además de multiplexar, pueden usarse eficazmente para implementar funciones lógicas.
  - Para realizar multiplexores de muchos canales pueden combinarse diferentes multiplexores.
 
-## Micro sesión de cierre
+#### Micro sesión 5: Cierre
+
 Dado el caso con el videojuego de Silicon Zeroes y en sí el tema, busca que las personas entiendan 
 en como los componentes electronicos y digitales funcionan en los gadgets/dispositivos, junto 
 en como implementarlos en estos, para que se puede ahorrar espacio/almacenamiento e incluso
@@ -224,7 +236,7 @@ numero 7 que me pedian. En general no parece que se duro en entender (creo), mas
 
 ### Unidad 1: Miercoles 7 de Febrero
 
-## Micro-Sesión 1: Apertura
+### Micro-Sesión 1: Apertura
 
 Lo que hizimos al principio fue hablar sobre como deberiamos en organizar nuestras bitacoras con ayuda 
 de los atajos o comandos que usa Github que es MarkDown. Tal cual como se muestra en el ejemplo de abajo:
@@ -241,6 +253,8 @@ Asi nos recomienda que lo dejemos de ahora en adelante.
 
 Luego de eso nos pusimos a trabajar en el CPUEmulator
 
+
+#### Micro sesión 2: Cierre
 
 ## Semana 3 ???? (en proceso) - Día Autonomo
 
