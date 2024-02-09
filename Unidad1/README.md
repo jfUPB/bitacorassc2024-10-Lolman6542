@@ -251,10 +251,26 @@ de los atajos o comandos que usa Github que es MarkDown. Tal cual como se muestr
 ```
 Asi nos recomienda que lo dejemos de ahora en adelante.
 
-Luego de eso nos pusimos a trabajar en el CPUEmulator
+Luego de eso nos pusimos a trabajar en el CPUEmulator con este codigo:
 
+``` c
+
+// Instrucción tipo A
+//@numeroPositivo
+@25
+// Instrucción tipo C
+// destino = operación;salto
+// operación
+@69
+D=A
+
+```
+La primera instrucción carga el valor 25 en algún registro o dirección de memoria. La segunda instrucción mueve el valor almacenado en la dirección de memoria o registro especificado por el número 69 al registro D. Entonces, básicamente, este código manipula valores en la memoria o registros de la computadora, asignando el valor 25 a alguna ubicación y luego moviendo otro valor desde una ubicación específica (determinada por el número 69) al registro D.
 
 #### Micro sesión 2: Cierre
 
-## Semana 3 ???? (en proceso) - Día Autonomo
+El código ensamblador es un lenguaje de bajo nivel que permite a los programadores interactuar directamente con el hardware de la computadora. A diferencia de los lenguajes de alto nivel como Python o Java, el código ensamblador se traduce casi directamente en instrucciones de máquina que la CPU puede ejecutar. En resumen, trabajar con código ensamblador puede proporcionar una comprensión más profunda de cómo funcionan realmente las computadoras a nivel de hardware. Sin embargo, también puede ser complejo y requiere un conocimiento detallado de la arquitectura del procesador y las instrucciones específicas del conjunto de instrucciones.
 
+### Jueves 8 de Febrero - Día Autonomo
+
+#### Micro sesión 1: Apertura
