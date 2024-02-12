@@ -332,3 +332,12 @@ Este es un esquema básico del código. Debes reemplazar las letras 'P' y 'a' po
 #### Micro sesión 2: Cierre
 
 La programación en ensamblador nos sumerge en los cimientos mismos de cómo funciona una computadora, lo que nos brinda un nivel de control y optimización que rara vez se encuentra en lenguajes de programación de más alto nivel. Si bien puede ser laborioso y detallado, el conocimiento adquirido al trabajar con ensamblador es invaluable: nos proporciona una comprensión profunda de la arquitectura del procesador y nos permite optimizar el rendimiento del programa al máximo. A través de este proceso, no solo ganamos habilidades técnicas, sino también una apreciación más profunda de la complejidad y el poder de la tecnología que utilizamos a diario.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+## Semana 4 
+
+### Lunes 12 de febreo
+
+#### Micro sesión 1: Apertura
+
