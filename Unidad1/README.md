@@ -340,4 +340,57 @@ La programación en ensamblador nos sumerge en los cimientos mismos de cómo fun
 ### Lunes 12 de febreo
 
 #### Micro sesión 1: Apertura
+Planeacion
+Variables
 
+```c
+@variable
+D=M
+@variable2
+D = M
+
+// Quiero guardar en
+// la posición 66 de la memoria el numero 15
+@15
+D=A
+@66
+M=D
+
+// Quiero encender los primero 16 pixeles de la pantalla
+// Los pixeles están mapeados a osiciones de la memoria
+// Inician en la posición 16384
+
+// Si hay una tecla presionada pinto los 16 primeros
+// pixeles, sino los pago
+
+// Leer la posición 24576 que es la dirección donde
+// esta mapeado el teclado
+// si lo qque leo es diferente de cero, entonces hay
+// una tecla presionada y debo pintar la pantalla
+// sino entonces borro la pantalla
+
+
+// Leer el teclado
+
+(START)
+@24576
+D = M
+@IF
+D;JEQ
+// ELSE
+@16384
+M = -1
+@START
+0;JMP
+//Label
+(IF)
+@16384
+M=0
+@START
+0;JMP
+
+//Pinto la pantalla (Primero 16 pixeles)
+@16384
+M = -1
+
+```
