@@ -367,8 +367,7 @@ El ejercicio nos pide que al presionar uan tecla debe de pintar loa primeros 16 
 el programa debe recordar la primera posición de la pantalla (16384) que allique allí se 
 almacenaran los primeros 16 pixeles.
 
-// Quiero guardar en
-// la posición 69 de la memoria el numero 16
+Quiero guardar en  la posición 69 de la memoria el numero 16
 
 @16
 D=A
@@ -411,3 +410,14 @@ M = -1
 ```
 
 #### Micro Sesión 3: Cierre
+
+Espero y aspiro que con el progreso de esta semana pueda entender mas el manejo de la creación de pixeles,
+porque desafortunadamente no entendi como hacer la actividad RETO que nos pedia la Unidad 1 en crear una 
+imagen al presionar una tecla y borrarla con otra (Voy a repetirlo). No esta del todo claro pero hoy mismo debo de
+seguir trabajando en la actividad propuesta para hoy mismo.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+### Miercoles 14 de febreo
+
+#### Micro sesión 1: Apertura
