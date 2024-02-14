@@ -340,35 +340,50 @@ La programación en ensamblador nos sumerge en los cimientos mismos de cómo fun
 ### Lunes 12 de febreo
 
 #### Micro sesión 1: Apertura
-Planeacion
-Variables
 
-```c
-@variable
-D=M
-@variable2
-D = M
+Labels
+Variables
+Saltos 
+I/O: Teclados, display
+
+- Las variables en lenguaje ensamblador son áreas de memoria reservadas para almacenar datos temporales o valores
+  que se utilizan durante la ejecución de un programa.se utilizan principalmente para almacenar datos temporales,
+  como números, caracteres o direcciones de memoria, y pueden modificarse durante la ejecución del programa según sea necesario.
+
+- Labels son símbolos utilizados para marcar ubicaciones específicas en el código fuente. Estas etiquetas se utilizan principalmente
+  como referencias para saltos condicionales o incondicionales, y para definir puntos de entrada o salida en el programa.
+
+- Los Saltos son instrucciones que controlan el flujo de ejecución del programa, permitiendo que éste pase de una parte
+  del código a otra según ciertas condiciones o de manera incondicional. Saltos condicionales: Estos saltos se ejecutan 
+  solo si se cumple una condición específica "je" que salta a una ubicación específica si dos valores son iguales.
+  Saltos incondicionales: Estos saltos se ejecutan independientemente de cualquier condición.
+  jmp (Jump), que siempre salta a la ubicación especificada.
+
+#### Micro Sesión 2: Ejemplo
+
+Ejemplo de clase:
+
+El ejercicio nos pide que al presionar uan tecla debe de pintar loa primeros 16 pixeles
+el programa debe recordar la primera posición de la pantalla (16384) que allique allí se 
+almacenaran los primeros 16 pixeles.
 
 // Quiero guardar en
-// la posición 66 de la memoria el numero 15
-@15
+// la posición 69 de la memoria el numero 16
+
+@16
 D=A
-@66
+@69
 M=D
 
-// Quiero encender los primero 16 pixeles de la pantalla
-// Los pixeles están mapeados a osiciones de la memoria
-// Inician en la posición 16384
+Quiero encender los primero 16 pixeles de la pantalla del cual Los pixeles están 
+mapeados a osiciones de la memoria que inician en la posición 16384
+Si hay una tecla presionada pinto los 16 primeros pixeles, sino los pago.
 
-// Si hay una tecla presionada pinto los 16 primeros
-// pixeles, sino los pago
+Leer la posición 24576 que es la dirección donde esta mapeado el teclado
+si lo qque leo es diferente de cero, entonces hayuna tecla presionada y 
+debo pintar la pantalla sino entonces borro la pantalla.
 
-// Leer la posición 24576 que es la dirección donde
-// esta mapeado el teclado
-// si lo qque leo es diferente de cero, entonces hay
-// una tecla presionada y debo pintar la pantalla
-// sino entonces borro la pantalla
-
+```c
 
 // Leer el teclado
 
@@ -394,3 +409,5 @@ M=0
 M = -1
 
 ```
+
+#### Micro Sesión 3: Cierre
