@@ -421,3 +421,13 @@ seguir trabajando en la actividad propuesta para hoy mismo.
 ### Miercoles 14 de febreo
 
 #### Micro sesión 1: Apertura
+
+Hoy por lo que nos pide el profesor es Contruir estos programas realizando pruebas intermedias para cada funcionalidad. 
+Por ahora la primera actividad consiste en hacer un ejercicio en donde se analise el y comente lo que hace el programa.
+
+### Micro sesión 2: Desarrollo
+
+
+
+
+
