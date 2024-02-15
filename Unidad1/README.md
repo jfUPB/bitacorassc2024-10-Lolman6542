@@ -425,9 +425,70 @@ seguir trabajando en la actividad propuesta para hoy mismo.
 Hoy por lo que nos pide el profesor es Contruir estos programas realizando pruebas intermedias para cada funcionalidad. 
 Por ahora la primera actividad consiste en hacer un ejercicio en donde se analise el y comente lo que hace el programa.
 
-### Micro sesión 2: Desarrollo
+#### Micro sesión 2: Desarrollo
 
+```C
 
+//int i = 1; 
+//int sum = 0;
+//While (i <= 100){
+//  sum += i;
+//  i++;
+//}
 
+//int i = 1;
+@i  // Carga el valor de la dirección de memoria etiquetada como sum en el registro A. Luego, M = 0 asigna el valor 0 a esa dirección de memoria. Esto inicializa la variable sum a cero.
+M = 1  // Memory[A] o Memory[16] = 1
+//int sum = 0;
+@sum              
+M = 0
+(LOOP) // Marco el comienzo de un bucle
+//While (i <= 100){
+// i <= 100 --> i - 100 <= 0
+@i // Carga el valor de la dirección de memoria i en el registro A
+D = M // Carga el valor almacenado en la dirección de memoria i en el registro D
+@100 //  Carga el valor 100 en el registro A
+D = D - A //  Resta el valor en el registro A (100) del valor en el registro D (valor de i) y guarda el resultado en el registro D
+@END // Salta a la etiqueta END si la condición anterior fue verdadera (D;JGT)
+D;JGT // Salta a la etiqueta END si el resultado en D es mayor que 0 (es decir, si i es mayor que 100).
+//  sum += i;
+//  sum = sum + i;
+@i // Carga el valor de la dirección de memoria i en el registro A.
+D = M  // Carga el valor almacenado en la dirección de memoria i en el registro D
+@sum // Carga el valor de la dirección de memoria sum en el registro A
+M = M + D //  Suma el valor almacenado en D (valor de i) al valor almacenado en sum y guarda el resultado en la dirección de memoria sum
+//  i++;
+// i = i + 1
+@i  // Carga el valor de la dirección de memoria i en el registro A.
+M = M + 1 // Incrementa el valor de i en 1
+@LOOP // Salta de nuevo al inicio del bucle.
+0;JMP
+//}
+(END) //  Etiqueta que marca el final del bucle.
+@END // Salto a sí mismo (no hace nada). Esto es una convención común para evitar que el programa "caiga" en el código que sigue después de este bucle.
+0;JMP
 
+```
+En resumen, este código itera a través de los números del 1 al 100, los suma y guarda el resultado en la variable sum.
+Si todo funciona correctamente, al finalizar la ejecución, la variable sum debería contener el valor 5050, que es la suma de los números del 1 al 100.
+
+En esta implementación, (LOOP) es una etiqueta que marca el inicio del bucle. Luego,
+se verifica si i es menor o igual a 100 utilizando la comparación D = D - A seguido de D;JGT, que salta a la etiqueta END 
+si el resultado de la comparación es mayor que cero. Esto significa que el bucle terminará cuando i sea mayor que 100.
+Después de la verificación, el código dentro del bucle se ejecuta si la condición es verdadera. 
+Esto incluye sumar el valor de i a sum, incrementar i en 1 y luego saltar de nuevo al inicio del bucle utilizando @LOOP 0;JMP.
+El bucle continuará ejecutándose hasta que la condición i <= 100 sea falsa, momento en el que el programa saltará fuera del bucle
+y continuará con la instrucción siguiente después del bucle, que en este caso es (END).
+
+### Micro sesión 3: Cierre
+
+El lenguaje ensamblador es complicado y requiere mucha atención al detalle de lo que se encarga en hacer cada 
+LINEA DE CODIGO o almenos entender como funciona. Son algo similares a lo que se trata de las programación C++
+pero con mas paso. Debo de repasar POO y recordar los condicionales y ciclos para este fin de semana.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+### Jueves 15 de febreo - Día Autonomo
+
+#### Micro sesión 1: Apertura
 
