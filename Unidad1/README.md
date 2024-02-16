@@ -1,4 +1,4 @@
-# Bitácora de aprendizaje - Unidad 1. Arquitectura del Comuputador
+# Bitácora de aprendizaje - Unidad 1. Arquitectura del Computador
 
 ## Semana 2 
 
