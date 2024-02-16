@@ -498,4 +498,57 @@ Seguire trabajando las preguntas sobre la actividad guía.
 
 7. ¿Cómo se representan números enteros negativos en un computador en complemento a dos? Construye una tabla que represente un conjunto de número enteros positivos y negativos usando 4 bits.
 
-R/=
+R/= En la representación en complemento a dos, los números negativos se representan asignando el bit más significativo (el bit más a la izquierda) como 1, mientras que los números positivos tienen el bit más significativo como 0. Esto significa que los números negativos tienen un bit de signo de 1, mientras que los números positivos y cero tienen un bit de signo de 0.
+
+
+Claro, aquí tienes una tabla que representa un conjunto de números enteros usando 4 bits, lo que permite representar números en el rango de -8 a 7 en notación de complemento a dos:
+
+``` c
+
+Decimal | Binario
+--------|---------
+   -8   | 1000
+   -7   | 1001
+   -6   | 1010
+   -5   | 1011
+   -4   | 1100
+   -3   | 1101
+   -2   | 1110
+   -1   | 1111
+    0   | 0000 
+    1   | 0001
+    2   | 0010
+    3   | 0011
+    4   | 0100
+    5   | 0101
+    6   | 0110
+    7   | 0111
+
+```
+
+8.  ¿Qué es una unidad aritmética lógica? ¿Qué se puede hacer si una función no está implementada en la ALU?
+
+R/= Una Unidad Aritmética Lógica es un componente clave dentro de una CPU que se encarga
+de realizar operaciones aritméticas y lógicas en datos. La ALU es responsable de realizar 
+operaciones como sumar, restar, multiplicar y dividir números, así como también
+operaciones lógicas como AND, OR y NOT.
+
+Si una función específica no está implementada en la ALU, hay varias estrategias que 
+pueden ser utilizadas para manejar esta situación, incluyendo el uso de microcódigo, 
+software y/o instrucciones especiales.
+
+- Microcódigo: Es un conjunto de instrucciones de bajo nivel que controlan 
+ directamente el funcionamiento de la CPU. Puede ser utilizado para emular 
+ la función deseada utilizando las operaciones disponibles en la ALU.
+
+- Software: Implica escribir código en un lenguaje de programación de alto
+ nivel que realiza la función deseada utilizando las operaciones disponibles en la CPU.
+
+- Instrucciones especiales: Algunas arquitecturas de CPU no están implementadas en la ALU de forma nativa.
+Estas instrucciones pueden ser utilizadas cuando se necesita realizar una función particular de manera eficiente y frecuente.
+
+### Micro sesión 3: Cierre
+
+De lo que tengo entendido es que no debo de hacer todas las preguntas de la actividad guia
+pero, almenos deberia leer todas las preguntas y terminar de los videos que proponen
+para seguir trabajando en la actividad CPUEmulator.bat
