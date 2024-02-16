@@ -492,3 +492,10 @@ pero con mas paso. Debo de repasar POO y recordar los condicionales y ciclos par
 
 #### Micro sesión 1: Apertura
 
+Seguire trabajando las preguntas sobre la actividad guía.
+
+### Micro sesión 2: Desarrollo
+
+7. ¿Cómo se representan números enteros negativos en un computador en complemento a dos? Construye una tabla que represente un conjunto de número enteros positivos y negativos usando 4 bits.
+
+R/=
