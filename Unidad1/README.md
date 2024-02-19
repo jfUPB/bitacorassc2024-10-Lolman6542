@@ -18,7 +18,7 @@ que entendimos ciertos conceptos para poder seguir avanzado el reto. No hay que 
 pero seria lo recomendable que se evidencia algo del trabajo. Tambien podemos empezar a tirar codigo y crear el ejecutable ex15.asm
 en el GitHub.
 
-### Micro-Sesión 2: Investigación - Preguntas Guía Iniciales
+#### Micro-Sesión 2: Investigación - Preguntas Guía Iniciales
 
 1.  Selecciona una función booleana. Representa dicha operación de dos maneras diferentes. ¿Pudiste observar en el video esas dos maneras?
   
