@@ -556,4 +556,12 @@ para seguir trabajando en la actividad CPUEmulator.bat
 
 ### Lunes 19 de Febrero
 
-#### Micro-Sesión 1: Apertura
+#### Micro sesión 1: Apertura
+
+Hoy el profesor se puso a llamar a la lista de estudiantes para ponerse al día en
+el manejo y uso de la bitacoras en Github, mas que todo haciendo retroalimentación 
+acerca manejo, control de commits, uso de la sintaxis y del mismo tema.
+Sebastian, David y yo nos pusimos a discutir y en hacer la actividad reto de Assembler
+de los nombre al colocar las letras (La que hize mal). Intetar solucionar la actividad reto
+
+#### Micro-Sesión 2: Desarrollo
