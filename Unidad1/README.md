@@ -236,7 +236,7 @@ numero 7 que me pedian. En general no parece que se duro en entender (creo), mas
 
 ### Unidad 1: Miercoles 7 de Febrero
 
-### Micro-Sesión 1: Apertura
+#### Micro-Sesión 1: Apertura
 
 Lo que hizimos al principio fue hablar sobre como deberiamos en organizar nuestras bitacoras con ayuda 
 de los atajos o comandos que usa Github que es MarkDown. Tal cual como se muestra en el ejemplo de abajo:
@@ -244,7 +244,7 @@ de los atajos o comandos que usa Github que es MarkDown. Tal cual como se muestr
 ``` c
 
 ## SEMANA 3
-###Unidad 1: Miercoles Febrero 7
+### Unidad 1: Miercoles Febrero 7
 #### Micro-Sesión 1 :Apertura
 #### Micro-Sesión 2: Cierre
 
