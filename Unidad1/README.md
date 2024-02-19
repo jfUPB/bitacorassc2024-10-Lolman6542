@@ -416,8 +416,6 @@ porque desafortunadamente no entendi como hacer la actividad RETO que nos pedia 
 imagen al presionar una tecla y borrarla con otra (Voy a repetirlo). No esta del todo claro pero hoy mismo debo de
 seguir trabajando en la actividad propuesta para hoy mismo.
 
--------------------------------------------------------------------------------------------------------------------------
-
 ### Miercoles 14 de febreo
 
 #### Micro sesión 1: Apertura
@@ -486,7 +484,6 @@ El lenguaje ensamblador es complicado y requiere mucha atención al detalle de l
 LINEA DE CODIGO o almenos entender como funciona. Son algo similares a lo que se trata de las programación C++
 pero con mas paso. Debo de repasar POO y recordar los condicionales y ciclos para este fin de semana.
 
----------------------------------------------------------------------------------------------------------------------------------------
 
 ### Jueves 15 de febreo - Día Autonomo
 
