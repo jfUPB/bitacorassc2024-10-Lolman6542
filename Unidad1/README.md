@@ -86,7 +86,7 @@ ayuda a ChatGPTE en enteder mas este tema. Dejare esta reflexion por ahora y voy
 
 R/=  Inventamos una función que devuelve verdadero (1) si al menos dos de las tres entradas son verdaderas (1), y falso (0) en cualquier otro caso.
 
-   ## Función => (x,y,z)=(x⋅y)+(x⋅z)+(y⋅z)
+   Función => (x,y,z)=(x⋅y)+(x⋅z)+(y⋅z)
 
    Esta función representa la lógica "al menos dos de las tres son verdaderas". Ahora, podemos construir la tabla de verdad:
 
