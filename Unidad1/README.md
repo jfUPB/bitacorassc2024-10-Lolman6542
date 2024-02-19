@@ -552,3 +552,11 @@ Estas instrucciones pueden ser utilizadas cuando se necesita realizar una funci√
 De lo que tengo entendido es que no debo de hacer todas las preguntas de la actividad guia
 pero, almenos deberia leer todas las preguntas y terminar de los videos que proponen
 para seguir trabajando en la actividad CPUEmulator.bat
+
+-----------------------------------------------------------------------------------
+
+## Semana 5 
+
+### Lunes 19 de Febrero
+
+#### Micro-Sesi√≥n 1: Apertura
