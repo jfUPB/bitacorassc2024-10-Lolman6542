@@ -491,7 +491,7 @@ pero con mas paso. Debo de repasar POO y recordar los condicionales y ciclos par
 
 Seguire trabajando las preguntas sobre la actividad guía.
 
-### Micro sesión 2: Desarrollo
+#### Micro sesión 2: Desarrollo
 
 7. ¿Cómo se representan números enteros negativos en un computador en complemento a dos? Construye una tabla que represente un conjunto de número enteros positivos y negativos usando 4 bits.
 
@@ -544,7 +544,7 @@ software y/o instrucciones especiales.
 - Instrucciones especiales: Algunas arquitecturas de CPU no están implementadas en la ALU de forma nativa.
 Estas instrucciones pueden ser utilizadas cuando se necesita realizar una función particular de manera eficiente y frecuente.
 
-### Micro sesión 3: Cierre
+#### Micro sesión 3: Cierre
 
 De lo que tengo entendido es que no debo de hacer todas las preguntas de la actividad guia
 pero, almenos deberia leer todas las preguntas y terminar de los videos que proponen
