@@ -478,7 +478,7 @@ Esto incluye sumar el valor de i a sum, incrementar i en 1 y luego saltar de nue
 El bucle continuará ejecutándose hasta que la condición i <= 100 sea falsa, momento en el que el programa saltará fuera del bucle
 y continuará con la instrucción siguiente después del bucle, que en este caso es (END).
 
-### Micro sesión 3: Cierre
+#### Micro sesión 3: Cierre
 
 El lenguaje ensamblador es complicado y requiere mucha atención al detalle de lo que se encarga en hacer cada 
 LINEA DE CODIGO o almenos entender como funciona. Son algo similares a lo que se trata de las programación C++
@@ -554,7 +554,7 @@ para seguir trabajando en la actividad CPUEmulator.bat
 
 ## Semana 5 
 
-### Lunes 19 de Febrero
+### Sesión 1
 
 #### Micro sesión 1: Apertura
 
@@ -565,3 +565,13 @@ Sebastian, David y yo nos pusimos a discutir y en hacer la actividad reto de Ass
 de los nombre al colocar las letras (La que hize mal). Intetar solucionar la actividad reto
 
 #### Micro-Sesión 2: Desarrollo
+
+NOTA:
+
+Semana
+3 sesiones : 1 y 2 de clase la 3 de independiente. 4 microsesiones para clase y 5 para independiente
+
+
+
+
+
