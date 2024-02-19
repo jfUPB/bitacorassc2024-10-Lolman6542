@@ -30,20 +30,19 @@ en el GitHub.
 
 Junto a las expresiones:
 
-- AND: La salida es verdadera solo si todas las variables son verdaderas.
+AND: La salida es verdadera solo si todas las variables son verdaderas.
 
                              Z . X . Y
 
-- OR: La salida es verdadera si al menos una de las variables es verdadera.
+OR: La salida es verdadera si al menos una de las variables es verdadera.
 
                              Z + X + Y
 
-- XOR: La salida es verdadera si exactamente una de las variables es verdadera.
+XOR: La salida es verdadera si exactamente una de las variables es verdadera.
 
                              Z ⊕ X ⊕ Y
 
-- NOT: La salida es el inverso de la entrada.
-
+NOT: La salida es el inverso de la entrada.
                              _ _ _
                              Z X Y            
 
@@ -52,6 +51,7 @@ Para el primera caso usara la tabla de la verdad junto la expresion AND:
 ![image](../assets/301288286-b7bec477-92dc-4f6f-8a91-143236d7700c.png)
 
 Ahora lo usaremos junto el Logic Gate junto a la expresión AND:
+
 
  ``` c
           _________
