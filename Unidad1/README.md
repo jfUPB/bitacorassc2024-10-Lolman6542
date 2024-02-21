@@ -606,6 +606,12 @@ Es muy importante aclarar la sintanxis de los codigo para que funcionen y tanto 
 las inteligencias y programas entendienda de lo que estan leyendo.
 
 
+### Sesión 2
 
+#### Micro sesión 1: Apertura
 
+Mis compañeros y yo continuaremos con el desarrollo de la actividad Reto, 
+estare repasando otra vez los elementos del curso en la pagina de Nad2teris, junto con su playlist.
+
+#### Micro sesión 2: Desarrollo
 
