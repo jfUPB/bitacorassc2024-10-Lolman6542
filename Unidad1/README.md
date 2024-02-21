@@ -587,9 +587,23 @@ hallar la dirección de memoria para las letras en especifico que necesito.
 
 #### Micro-Sesión 3: Desarrollo
 
+Tal y como me volvio a ocurrir, es que estoy pasando por los mismo problemas 
+con estas maquinas a la hora de mencionar acerca de mi problema. No entienden lo que 
+quieren hacer. Puede que no sepan lo que estoy escribiendo o que. tal vez no se concreto
+con lo que este haciendo. Pense que funcionaria pero no. ni me salen los numeros :/
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/4a663d22-d807-40b0-ba8b-ec8d9c6c91ad)
+
+Aca estoy probando con blackbox, otra inteligencia pero sin resultandos algunos.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/64f17c6a-d390-4248-b7b0-2dd2d80f58b2)
+
 
 #### Micro-Sesión 4: Cierre
-
+Por mientras mejor me guardo mis codigos aparte y aun no los monto dado que los volvere a re-hacer
+es muy probable que mis compañeros tengan algo diferente o almenos hayan avanzado algo mas con este tema.
+Es muy importante aclarar la sintanxis de los codigo para que funcionen y tanto las personas como
+las inteligencias y programas entendienda de lo que estan leyendo.
 
 
 
