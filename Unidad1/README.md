@@ -571,6 +571,26 @@ NOTA:
 Semana
 3 sesiones : 1 y 2 de clase la 3 de independiente. 4 microsesiones para clase y 5 para independiente
 
+Para resumir. lo que hizimos fue aconsejar Sebastian en usar y agarrar un codigo ya establecido
+dado que podria funcionar, por lo similares que son. El codigo seria este:
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/ca670139-f207-404e-8236-2218621c8be6)
+
+Del cual el programa ya lee e impreme una pantalla al presionar una tecla, solo que 
+hay que ser concretos al presionar la letra en especifico, mi caso es la 
+primera letra de mi apellido y al presionar la ultima de mi apellido, borrara la imagen.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/d9c40032-0755-4fc2-a174-a9240f83a11d)
+
+Aca lo que estoy haciendo es con ayuda de chatGPT es en un codigo hecho por el
+hallar la dirección de memoria para las letras en especifico que necesito.
+
+#### Micro-Sesión 3: Desarrollo
+
+
+#### Micro-Sesión 4: Cierre
+
+
 
 
 
