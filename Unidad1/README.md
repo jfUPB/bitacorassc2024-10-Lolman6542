@@ -644,5 +644,26 @@ https://www.youtube.com/watch?v=inFJ5EyOhpM
 
 ### Sesión 3
 
-#### Micro sesión 1: Entrega del Reto
+#### Micro sesión: Entrega del Reto
+
+Ahora me encuentro con unos problemas a la hora de ejecutar el codigo
+dado que me estan saliendo errores y/o no se estan ejecutando del todo bien
+He subido el codigo al repositorio y se llama "Reti-ciclo.asm"
+
+De lo que le pregunte a ChatGPT me habia dicho de los siguientes errores que tenia y tiene:
+
+- De los primeros casos estaba declarando una la (P), pero me tachaba que 
+habia un error de logica dado que saltaba @Loop sin importar el resultado
+y me recomendo usar JNE en vez de JEQ si queria saltar el Loop 
+cuando la letra presionada fuera diferente de P.
+
+- Lo otro era un error en donde en vez de llamar a memoria
+BorrarBucle lo estaba era etiquetando, tambien me hizo la recomiendacion de cambiar
+en la seccion de PintarNegro cambiar M=-1 por un M=0, haber si me pinta la pantalla.
+
+Por ahora lo unico que he logrado es pintar la pantalla si a mucho como una
+linea de 1 centimetros en negro al presionar la tecla P y al soltarla se vuelve en 
+blanco. Tengo que ver que puedo hacer para solucionar el problema.
+ 
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/f1df27fe-64b4-4855-88a9-c5d355337ee8)
 
