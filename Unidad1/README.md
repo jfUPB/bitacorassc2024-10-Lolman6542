@@ -615,3 +615,34 @@ estare repasando otra vez los elementos del curso en la pagina de Nad2teris, jun
 
 #### Micro sesión 2: Desarrollo
 
+Estube intentando aun realizar codigos de Assembler con ayuda de chatgpt, pero
+seguia atrapado en bucles de los cuales no seguian avanzando. Mas que todo
+el principio empezaba bien pero al final los ciclos del final o lo accesos
+de ciertas memorias no funcionanban del todo. 
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/a7cf32d0-add0-4fa3-9c04-8ba5df9b1fad)
+
+#### Micro sesión 3: Desarrollo
+
+Decidi empezar a buscar una lista acerca de la lista de codigos de Assembler para 
+Nad2tetris para hecharle un repaso a lista, para trata de solucionar el reto.
+Tambien busque como se escribian o cual era el codigo de memoria para la letra P y Z
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/03bbdc08-23f4-41d9-bb4e-9c420a6e113a)
+
+#### Micro sesión 4: Cierre
+
+Esta claro que para el desarrollo de los codigo o ROM para quede funcionando el 
+programa se necesita de mucha atención para no tirarselo, puede que funcione
+a la primera puede que no. Pero a la vez es impresionante de los que se ha podido hacer con el
+mismo programa. En mi caso cuando andaba en busqueda de ayuda en linea, me tope con un
+video en donde un tipo hizo wolfestein 3d en el programa CPUEmulator.
+Tanto mis compañeros y yo quedamos impresionando por lo bien que lucia, fue un pequeño 
+impulso moral para intentar hacer el reto.
+
+https://www.youtube.com/watch?v=inFJ5EyOhpM
+
+### Sesión 3
+
+#### Micro sesión 1: Entrega del Reto
+
