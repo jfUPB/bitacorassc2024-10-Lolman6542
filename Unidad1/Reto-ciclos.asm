@@ -21,7 +21,7 @@
 
 (PintarNegro)
     @SCREEN // Se refiere al espacio que pintara en la memoria 16384 para la pantalla
-    M=-1
+    M=1
     @INICIO
     0;JMP
 
