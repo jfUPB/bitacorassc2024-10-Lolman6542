@@ -21,9 +21,11 @@
 
 (PintarNegro)
     @SCREEN // Se refiere al espacio que pintara en la memoria 16384 para la pantalla
-    M=1
+    M=-1
     @INICIO
     0;JMP
+
+
 
 (CocinandoBucle)
     @24576
@@ -34,6 +36,31 @@
     D=A 
     @variable // Posicion del bit de la pantalla
     M=D 
+
+(PintarNegroBucle)
+    @variable
+    A=M
+    M=-1
+    @variable
+    M=M+1
+    D=M
+    @suma
+    D=M-D
+
+    @PintarNegroBucle
+    D;JGT
+    @INICIO
+    0;JMP
+
+(CocinandoBucle)
+    @24576
+    D=A
+    @suma
+    M=D
+    @16384
+    D=A
+    @variable
+    M=D
 
 (BorrarBucle)
     @variable
