@@ -667,3 +667,16 @@ blanco. Tengo que ver que puedo hacer para solucionar el problema.
  
 ![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/f1df27fe-64b4-4855-88a9-c5d355337ee8)
 
+## Semana 5
+
+### Sesión 1
+
+#### Micro sesión: Entrega del Reto
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/cfd17fe7-e9af-4a76-bdf1-a473d4728447)
+
+Al fin descubri cual era mi problema, y resulta que me faltaba tres lineas de codigos
+los cuales concistian en la creación del bucle para pintar en negro la pantalla y junto 
+con su almacenacion en patalla. Lo tenia pero para borrar la pantalla/pintar en blanco. 
+
+
