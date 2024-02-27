@@ -678,5 +678,9 @@ blanco. Tengo que ver que puedo hacer para solucionar el problema.
 Al fin descubri cual era mi problema, y resulta que me faltaba tres lineas de codigos
 los cuales concistian en la creación del bucle para pintar en negro la pantalla y junto 
 con su almacenacion en patalla. Lo tenia pero para borrar la pantalla/pintar en blanco. 
+Ese uno otros problemas que me faltaban por resolver, el otro era que se me estaba pasando en 
+crear un bucle aparte para pintar la pantalla en blanco, la deje como CocinandoBucleA.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/7a574aa8-c06e-40c7-ac61-67410b8dcfa0)
 
 
