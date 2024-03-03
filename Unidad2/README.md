@@ -30,8 +30,6 @@ y manejo de cualquier programas desarrollo y tutoriales como en Youtube
 otras paginas de terceros o el mismo uso de las inteligencias artificiales
 dado que el espera que podamos entender y explicar el tema como nosotros podamos.
 
-![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/c96f037b-7e60-4066-9ca0-96351ec51755)
-
 #### Micro-sesión 3 
 
 Tambien hizo menciones de una pagina que el mismo profesor construyo para 
