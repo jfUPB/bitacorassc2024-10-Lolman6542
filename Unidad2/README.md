@@ -69,3 +69,35 @@ Mas que todo en la parte de experimentación.
 
 ¿Por qué utilizaremos en esta parte del curso el lenguaje C?
 
+Es uno de los lenguajes más utilizados actualmente en sistemas operativos 
+como Linux y programación de sistemas embebidos (aquellos que hacen una
+tarea o mas en tiempo real, en una unidad de microprocesadores).
+
+Caracterissticas:
+
+- Pocas palabras clave, por lo cual es fácil de aprender.
+
+- Permite crear datos compuestos como estructuras de datos y uniones.
+
+- Permite variables que almacenan la dirección de otra variable.
+
+- Tiene una biblioteca estándar externa.
+
+- Los programa se compilan a código nativo por tanto, la ejecución de los 
+  programas es rápida, siempre y cuando estén bien escritos.
+
+- Su flexibiladad al programar, esto va a aportar una absoluta 
+  libertad para el programador informático.
+
+El lenguaje de programación C es muy eficiente y ofrece la posibilidad de manejar todos 
+los aspectos de las instrucciones del CPU. Su código ofrece una estructura clara y, por tanto,
+facilita la creación de aplicaciones de una forma rápida y potente.
+Asimismo, al contar con un número limitado de palabras clave su aprendizaje es más rápido.
+C optimiza al máximo la memoria de la computadora y predispone los datos estructurados.
+
+Deje un enlace que remarca su 50 aniversario:
+https://immune.institute/blog/lenguaje-de-programacion-c/#:~:text=El%20lenguaje%20de%20programaci%C3%B3n%20C%20es%20muy%20eficiente%20y%20ofrece,una%20forma%20r%C3%A1pida%20y%20potente.
+
+#### Micro-sesión 3: Desarrollo
+
+
