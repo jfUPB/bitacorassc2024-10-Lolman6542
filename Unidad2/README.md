@@ -124,7 +124,7 @@ lo largo del tiempo han sido utiles para el desarrollo y mantenimiento de
 varios de aplicaciones o creación de varios softwares.
 Puede no se le tome tanta importancia, pero es hecho de que el
 futuro de la humanidad sigue estando en el avance de las tecnologias o 
-el desarrollo de las revoluciones industrales.
+el desarrollo de las revoluciones industriales.
 
 
 
