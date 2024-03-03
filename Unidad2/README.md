@@ -100,4 +100,31 @@ https://immune.institute/blog/lenguaje-de-programacion-c/#:~:text=El%20lenguaje%
 
 #### Micro-sesión 3: Desarrollo
 
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/e6518ee9-105a-44dd-99f9-048e38c2b581)
+
+En uno de los enlances que se encuentrant en la pagina guia se hace mencion a una linea de 
+tiempo del cual se pregunta del ¿Por qué tantos lenguajes de programacion? 
+Para sorpresa de algunos esto es asi dado que es por mera elección de los mismo programadores
+dado que su forma y estilo de trabajo se ve reflejado en el desarrollo de codigo
+en el lenguaje de su elección.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/b0f1589a-a2b6-4f80-9e37-a2708d061042)
+
+Se puede apreciar en la imagen anterior en como los lenguajes de progrmas han ido
+evolucionando y cambiando por el pasar de los años, a tal punto de que algunos dejan de 
+existir y otros nacen de un lenguaje que a lo mejor no tengan nada que ver o almenos
+no esten relacionados del todos, como sucesores directos o espirituales en algunos casos.
+Los lenguages que mas han estado en el mercado han sido el C , C++ , Java-Script, C#
+
+#### Micro-sesión 4: Cierre
+
+Como tal los lenguajes de programación en su gran parte fueron hechos 
+como proyectos personales o tesis de trabajo para la universidad que a 
+lo largo del tiempo han sido utiles para el desarrollo y mantenimiento de
+varios de aplicaciones o creación de varios softwares.
+Puede no se le tome tanta importancia, pero es hecho de que el
+futuro de la humanidad sigue estando en el avance de las tecnologias o 
+el desarrollo de las revoluciones industrales.
+
+
 
