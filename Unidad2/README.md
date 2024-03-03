@@ -54,3 +54,18 @@ Assembler y llegar ha intentar acabar la actividad Reto final,
 para hace su documentacion misma, porque la documentacion de cosas
 o programas en CPUEmulator es muy poca, demas que con los tutoriales
 Udemy.
+
+### Sesión 2
+
+#### Micro-sesión 1: Apertura
+
+Desafortunadamente me perdi de esta clase debido a que andaba con muchas tos,
+gripa y dolor de cabeza. De lo que me lograron contar mis compañeros y profesor
+es que estubieron desarrollando y resolviendo dudas sobre las etapas de desarrollo de
+la guia, entonces seria buena idea comenzar a cuestionar un poquito y ver los puntos guias.
+Mas que todo en la parte de experimentación.
+
+#### Micro-sesión 2: Desarrollo
+
+¿Por qué utilizaremos en esta parte del curso el lenguaje C?
+
