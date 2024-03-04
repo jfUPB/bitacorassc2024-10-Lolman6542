@@ -125,4 +125,53 @@ futuro de la humanidad sigue estando en el avance de las tecnologias o
 el desarrollo de las revoluciones industriales.
 
 
+### Sesión 3
 
+#### Micro-sesión 1: Apertura
+
+
+## SEMANA 7
+
+### Sesión 1
+
+#### Micro-sesión 1: Apertura
+
+NOTA: Debo terminar la sesión 3 - día autonomo para seguir continuando con la siguiente...
+
+El profesor empezó a trabajar en el programa visual studio (azulito), estba halbando sobre los temas
+pasados y empezo hablar sobre depuradores. Empezamos a escribir el siguiente codigo:
+
+#Incluide <stdio.h>
+#include <SDL.h>
+
+void fuctionSwap(int *p1, int *p2) {
+int tmp = p1;
+p1 = p2;
+p2 = tmp;
+}
+
+Int main (int argc, char* argcv[]) {
+SDL_Init(SDL_INIT_EVERYTHING);
+PRINTF("Hello IDED/n");
+int a = 10;
+int b = 20;
+
+printf("a:%d - b: %d /n",a,b);
+functionSwap(&a);
+printf("a:%d - b; %d /n", a, b);
+
+
+#### Micro-sesión 2:
+
+Ahora de lo que tenemos entendido es que escribimos que los depuradores esta guardando
+direcciones de las siguientes variables al usar este codigo:
+
+´´´c
+
+void fuctionSwap(int *p1, int *p2) {
+int tmp = p1;
+p1 = p2;
+p2 = tmp;
+}
+
+´´´´
