@@ -141,6 +141,7 @@ NOTA: Debo terminar la sesión 3 - día autonomo para seguir continuando con la 
 El profesor empezó a trabajar en el programa visual studio (azulito), estba halbando sobre los temas
 pasados y empezo hablar sobre depuradores. Empezamos a escribir el siguiente codigo:
 
+```
 #Incluide <stdio.h>
 #include <SDL.h>
 
@@ -157,24 +158,24 @@ int a = 10;
 int b = 20;
 
 printf("a:%d - b: %d /n",a,b);
-functionSwap(&a);
+functionSwap(&a, &b);
 printf("a:%d - b; %d /n", a, b);
 
 return 0;
 }
-
+````c
 #### Micro-sesión 2:
 
 Ahora de lo que tenemos entendido es que escribimos que los depuradores esta guardando
 direcciones de las siguientes variables al usar este codigo:
 
-´´´c
+```
 void fuctionSwap(int *p1, int *p2) {
 int tmp = p1;
 p1 = p2;
 p2 = tmp;
 }
-´´´
+````c
 
 Con este codigo guardo los referentes de los objetos
 
