@@ -163,7 +163,7 @@ printf("a:%d - b; %d /n", a, b);
 
 return 0;
 }
-````c
+```c
 
 #### Micro-sesión 2:
 
@@ -176,7 +176,7 @@ int tmp = p1;
 p1 = p2;
 p2 = tmp;
 }
-````c
+```c
 
 Con este codigo guardo los referentes de los objetos
 
@@ -185,4 +185,4 @@ Class Myclass {
 }
 
 MyClass miclass
-````c
+```c
