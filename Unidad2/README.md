@@ -164,6 +164,7 @@ printf("a:%d - b; %d /n", a, b);
 return 0;
 }
 ````c
+
 #### Micro-sesión 2:
 
 Ahora de lo que tenemos entendido es que escribimos que los depuradores esta guardando
