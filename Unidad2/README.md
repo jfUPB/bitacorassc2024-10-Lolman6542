@@ -147,19 +147,20 @@ pasados y empezo hablar sobre depuradores. Empezamos a escribir el siguiente cod
 
 void fuctionSwap(int *p1, int *p2) {
 int tmp = *p1;
-p1 = p2;
-p2 = tmp;
+*p1 = p2;
+*p2 = tmp;
 }
 
-Int main (int argc, char* argcv[]) {
+int main(int argc, char* argcv[]) {
 SDL_Init(SDL_INIT_EVERYTHING);
-PRINTF("Hello IDED/n");
+printf("Hello IDED\n");
+
 int a = 10;
 int b = 20;
 
-printf("a:%d - b: %d /n",a,b);
+printf("a:%d - b: %d\n",a,b);
 functionSwap(&a, &b);
-printf("a:%d - b; %d /n", a, b);
+printf("a:%d - b; %d\n", a, b);
 
 return 0;
 }
@@ -178,11 +179,24 @@ p2 = tmp;
 }
  ```
 
-Con este codigo guardo los referentes de los objetos
+Con este codigo guardo los referentes de los objetos:
 
  ``` c
 Class Myclass {
 }
 
-MyClass miclass
+MyClass miclass1 = new Myclass();
+MyClass miclass2 = new Myclass();
  ```
+
+#### Micro-sesión 3:
+
+Un puntero es una variable que almacena la dirección de memoria de un objeto.
+Los punteros se usan ampliamente en C y C++ para tres propósitos principales:
+para asignar nuevos objetos en el montón, para pasar funciones a otras funciones.
+
+#### Micro-sesión 4:
+
+Como conclusion el depurador nos ayuda a encontrar los errores paso a paso
+y podamos de esta forma llevar un metodo mas ordenado y eficiente para encontrar errores.
+
