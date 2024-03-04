@@ -145,7 +145,7 @@ pasados y empezo hablar sobre depuradores. Empezamos a escribir el siguiente cod
 #include <SDL.h>
 
 void fuctionSwap(int *p1, int *p2) {
-int tmp = p1;
+int tmp = *p1;
 p1 = p2;
 p2 = tmp;
 }
@@ -160,6 +160,8 @@ printf("a:%d - b: %d /n",a,b);
 functionSwap(&a);
 printf("a:%d - b; %d /n", a, b);
 
+return 0;
+}
 
 #### Micro-sesión 2:
 
@@ -167,11 +169,18 @@ Ahora de lo que tenemos entendido es que escribimos que los depuradores esta gua
 direcciones de las siguientes variables al usar este codigo:
 
 ´´´c
-
 void fuctionSwap(int *p1, int *p2) {
 int tmp = p1;
 p1 = p2;
 p2 = tmp;
 }
+´´´
 
-´´´´
+Con este codigo guardo los referentes de los objetos
+
+```
+Class Myclass {
+}
+
+MyClass miclass
+````c
