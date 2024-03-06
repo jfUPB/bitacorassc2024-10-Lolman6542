@@ -200,3 +200,9 @@ para asignar nuevos objetos en el montón, para pasar funciones a otras funcione
 Como conclusion el depurador nos ayuda a encontrar los errores paso a paso
 y podamos de esta forma llevar un metodo mas ordenado y eficiente para encontrar errores.
 
+### Sesión 2
+
+#### Micro-sesión 1: Apertura
+
+Hoy nos dedicamos a trabajar en una activida guia/tutorial que nos enseñan a
+trabajar paso a paso con SLD2 Y enteder que es lo que ocurre.
