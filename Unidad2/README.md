@@ -166,7 +166,18 @@ Ya esta todo instalado tal y como pide la guia.
 Ya por ultimo nos  encargaremos de realizar la actividad que nos propone la actividad de las guias SDL2
 para comprobar de que si este funcionando
 
-![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/0df6c2e6-c003-4b22-b1d5-583fde38768b)
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/05f079fa-17b1-4058-95eb-3261d0c59074)
+
+Ahora mismo me estoy encontrando con un error, del cual conciste en que 
+no se esta detectando SDL2.lib
+
+#### Micro-sesión 5: Cierre
+
+De momento no se como solucionar este problema dado que el día que 
+es el dia en como se instalaba las librerias de SDL2. Ahora mismo 
+estoy dependiendo de unos pantallazos que uno de mis compañeros de 
+clase me llego a pasar. De momento tendre que seguir leyendo la guia 
+y ver que puedo hacer de mi parte.
 
 
 ## SEMANA 7
