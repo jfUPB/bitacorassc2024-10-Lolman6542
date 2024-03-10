@@ -141,6 +141,33 @@ necesitamos una extension llamada "Desktop development with C++"
 
 Luego descargamos el SDL2 y pasamos el archivo extraido a nuestro Disco Local (C:)**
 
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/56b30a55-384e-45d3-aeb8-4f5f353b0b3f)
+
+Arrastramos la carpeta extraida 
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/b6310fda-92ba-41f4-8640-2b6a0e99f5dc)
+
+#### Micro-sesión 3:
+
+Abrimos Visual Studio 2022, creamos un proyecto vacio en C++, cambiamos la extension 
+por una C. Luego de eso adicionamos los archivos descargados de la biblioteca SDL2 para que
+funcione correctamente.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/58e8962e-2e3a-43ed-97cb-d83e9a5ae904)
+
+Agregamos dependencias a las siguientes librerias:
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/3f76ecff-5252-4d74-bb7b-19acdd2c27cc)
+
+Ya esta todo instalado tal y como pide la guia.
+
+#### Micro-sesión 4:
+
+Ya por ultimo nos  encargaremos de realizar la actividad que nos propone la actividad de las guias SDL2
+para comprobar de que si este funcionando
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/0df6c2e6-c003-4b22-b1d5-583fde38768b)
+
 
 ## SEMANA 7
 
