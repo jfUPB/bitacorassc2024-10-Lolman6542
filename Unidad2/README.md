@@ -129,6 +129,18 @@ el desarrollo de las revoluciones industriales.
 
 #### Micro-sesión 1: Apertura
 
+Para esta sesióm Juan Franco resumio y nos presento la forma de dejar listo el 
+visual studio y descargar la bibliotecas SDL2.
+
+#### Micro-sesión 2: 
+
+Primero revisamos las partes que debemos tener descargadas en visual studio la cual 
+necesitamos una extension llamada "Desktop development with C++"
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/6bca18c4-4713-4c2c-9e17-9afd9a21cf3c)
+
+Luego descargamos el SDL2 y pasamos el archivo extraido a nuestro Disco Local (C:)**
+
 
 ## SEMANA 7
 
@@ -138,7 +150,7 @@ el desarrollo de las revoluciones industriales.
 
 NOTA: Debo terminar la sesión 3 - día autonomo para seguir continuando con la siguiente...
 
-El profesor empezó a trabajar en el programa visual studio (azulito), estba halbando sobre los temas
+El profesor empezó a trabajar en el programa visual studio, estaba hablando sobre los temas
 pasados y empezo hablar sobre depuradores. Empezamos a escribir el siguiente codigo:
 
  ``` c
@@ -195,7 +207,7 @@ Un puntero es una variable que almacena la dirección de memoria de un objeto.
 Los punteros se usan ampliamente en C y C++ para tres propósitos principales:
 para asignar nuevos objetos en el montón, para pasar funciones a otras funciones.
 
-#### Micro-sesión 4:
+#### Micro-sesión 4: Cierre
 
 Como conclusion el depurador nos ayuda a encontrar los errores paso a paso
 y podamos de esta forma llevar un metodo mas ordenado y eficiente para encontrar errores.
