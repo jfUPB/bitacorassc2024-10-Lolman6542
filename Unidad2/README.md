@@ -333,3 +333,33 @@ como printf() y scanf(), entre otras.
 
 #### Micro-sesión 3:
 
+Nos dedicamos a resolver la prenguta 5 que conciste en pintar la ventana, al
+hacerlo con el siguiente codigo.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/87247df1-58cb-4fb4-93e4-29987d40ba01)
+
+Este codigo mostrara los drivers dedicados para creara lo visto en la
+funcion dibujar. (El de arriba)
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/b1867339-226b-4e1b-be0e-166733770b64)
+
+Con este otro se le puede preguntar a SDL que drivers elegio
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/3574d66e-d3c5-4c3c-9bdc-4fec6d722941)
+
+Tambien para que funcione hay que declararlo en la variable global.
+Por lo general las variantes Globales son necesarias para que la CPU
+puede encontrar dichas variables y se ahorren el tiempo en usarlas,
+aumentando su desempeño en la ejecucion de codigos.
+
+#### Micro-sesión 4: Cierre
+
+Tambien nos pusimos a ver un poco de lo que es el GameLoop, pero como 
+tal el profesor nos pidio que hablasemos en como reproducir el juego Pong,
+del cual demostro e hizo una serie de ajustes en las variables, para que el
+movimiento de las fisicas del juego, no dependiencen de la tasa de cuadros por
+segundo. Empezar a ver los videos de Pong.
+
+### Sesión 3
+
+#### Micro-sesión 1: Apertura
