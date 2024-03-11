@@ -255,4 +255,81 @@ y podamos de esta forma llevar un metodo mas ordenado y eficiente para encontrar
 #### Micro-sesión 1: Apertura
 
 Hoy nos dedicamos a trabajar en una activida guia/tutorial que nos enseñan a
-trabajar paso a paso con SLD2 Y enteder que es lo que ocurre.
+trabajar paso a paso con SLD2 Y enteder que es lo que ocurre. Y seguir intentando
+en solucionar mi problema con los directorios.
+
+#### Micro-sesión 2:
+
+Parece que ya logre solucionar mi error, resulto que me faltaba otra
+lineas de directorios por especificar, ademas junto a este nuevo error
+que me aparece. Me pide que instalae SDL2.dll. Lo que hara es copiar y pegar
+en el directorio raiz de mi codigo. 
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/21ebe16d-0b87-4fae-979a-99f23764d245)
+
+Ya ahora no me esta tirando ningun error de la y el codigo esta funcionando 
+como deberia.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/8abcde35-bf84-4df6-9e67-e88664cc4888)
+
+Continuando con la guia de SDL2, nos encontraremos con un codigo que creara una ventana
+
+``` c
+#include <stdio.h>
+#include <SDL.h>
+
+#define TRUE 1
+#define FALSE 0
+#define WINDOW_WIDTH 800
+#define WINDOW_HEIGHT 600
+
+SDL_Window* window = NULL;
+
+
+int init_window(void){
+
+    if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
+        printf("Error SDL_Init\n");
+        return FALSE;
+    }
+
+    window = SDL_CreateWindow(
+        "My first Window",
+        SDL_WINDOWPOS_CENTERED,
+        SDL_WINDOWPOS_CENTERED,
+        WINDOW_WIDTH,
+        WINDOW_HEIGHT,
+        SDL_WINDOW_BORDERLESS);
+    if (window == NULL) {
+        printf("Error SDL_CreateWindow\n");
+        return FALSE;
+    }
+    return TRUE;
+}
+
+
+int main(int argc, char* argv[]) {
+    init_window();
+    while (TRUE) {
+    }
+    return 0;
+}
+```
+Lo que ocurre con es codigo es que tiene una funcion main
+"While (TRUE) {}", por lo cual el programa estara en un 
+bucle infinito. Una pantalla en negro.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/7a52b31b-0cbf-4e94-8450-4b68b64ec51d)
+
+Al borrar la linea anteriormente mencionando
+el progrma no abre.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/57d63c5d-0ca8-4fee-ba01-78cf17f7c081)
+
+El punto de entrada en un programa en C es la función main(). La línea #include <stdio.h> 
+es una directiva de preprocesador que incluye el contenido del archivo de encabezado stdio.
+h en tu programa, permitiendo el uso de funciones de entrada y salida estándar,
+como printf() y scanf(), entre otras.
+
+#### Micro-sesión 3:
+
