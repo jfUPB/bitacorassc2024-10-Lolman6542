@@ -358,8 +358,22 @@ Tambien nos pusimos a ver un poco de lo que es el GameLoop, pero como
 tal el profesor nos pidio que hablasemos en como reproducir el juego Pong,
 del cual demostro e hizo una serie de ajustes en las variables, para que el
 movimiento de las fisicas del juego, no dependiencen de la tasa de cuadros por
-segundo. Empezar a ver los videos de Pong.
+segundo. Empezar a ver los articulos sobre de GameLoop.
 
 ### Sesión 3
 
 #### Micro-sesión 1: Apertura
+
+Empezare a leer el concepto de Gameloop que el profesor nos compartio atraves del
+enlace que habia en la pagina Actividad 6 y ver si se empieza a Experimentar con el
+mismo codigo que ha puesto el profesor.
+
+#### Micro-sesión 2: 
+
+
+
+#### Micro-sesión 3: 
+
+#### Micro-sesión 4: 
+
+#### Micro-sesión 5: Cierre 
