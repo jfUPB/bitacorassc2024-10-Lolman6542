@@ -370,6 +370,41 @@ mismo codigo que ha puesto el profesor.
 
 #### Micro-sesión 2: 
 
+Para empezar con la guia, el articulo menciona que en un principios los codigos
+basicamente funcionaba solo una vez; montabamos el codigo, presionabamos un
+boton, esperabamos y obteniamos resultados tal cual como una tarjeta perforada.
+Por lo general se hacia muy lento el tener que dejar el programa corriendo y esperar
+unas horas para obtener los resultados de los Bugs y errores que tenian.
+Necesitaban Feedback de Inmediatos, entonces nacieron los progrmas interactivos
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/26bcc5ef-a3be-4175-9207-18b4b5159edc)
+
+Podias incluso obtener una coversacion en vivo con el programa, esperaba 
+el comando a ingresar y te respondia de inmideato, asi sucesivamente.
+Se quedaba haciendo nada mientras espera tu respuesta.
+
+Tambien se encuentra los Event Loops de los cuales conciste en la espera e 
+ingresos de botones/clicks que el jugador oprime, pero ese es el problema
+no ocurrira nada hasta que el jugador no ingrese otro boton
+Del cual este es uno de los elementos mas importantes del GameLoop;
+que procesa el comando del usuario, pero no lo espera. El bucle 
+siempre se mantiene en constacia.
+
+```c
+
+while (true)
+{
+  processInput();
+  update();
+  render();
+}
+
+```
+El processInput se encarga de manejar el ultimo comando
+que el jugador coloco.
+Update matiene el juego en movimiento en un paso, encargandose
+de I.A y la fisicas de juego activas (Incluso en ese orden)
+Render muestra o dibuja lo que esta ocurriendo en pantalla.
 
 
 #### Micro-sesión 3: 
