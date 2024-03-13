@@ -409,6 +409,21 @@ Render muestra o dibuja lo que esta ocurriendo en pantalla.
 
 #### Micro-sesión 3: 
 
+Un caso interesante con lo que ocurre con los manejos de las 
+velocidades en los Videojuegos, y es que al manejarse/completarse
+tasas tan altas en los ciclos de los juegos, se obtendra una tasa
+de cuadros mucho mayor a la deseado. En epocas de antaño, como en
+la generación de la NES o Apple IIe se sabia lo que se podia y debian
+de hacer al programar para la CPU de dicha consola.
+
+Si en aquel entonces se porteaba un juego a una maquina superior o
+inferior, era muy probable que las fisicas del juego se enloqueciecen
+debio a que el manejo de codigos se programo de manera exacta para consola.
+Lo que se busca con al programar en ciertos Hardwares es que 
+ande a la velocidad o a FPS constante en dichas maquinas, que
+por lo general es recomendado hacerlo con las especificaciones
+minimas para que pueda correr.
+
 #### Micro-sesión 4: 
 
 #### Micro-sesión 5: Cierre 
