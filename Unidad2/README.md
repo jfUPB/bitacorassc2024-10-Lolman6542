@@ -391,7 +391,9 @@ que procesa el comando del usuario, pero no lo espera. El bucle
 siempre se mantiene en constacia.
 
 Dragon Lair (Arcade):
-https://sistemascomputacionales.readthedocs.io/es/latest/_unidad2/sdlGettingStarted.html#actividad-6-el-concepto-de-gameloop
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/f74b6c7f-4945-4575-81cb-e27f7814cd55)
+
 
 ```c
 
@@ -428,6 +430,7 @@ por lo general es recomendado hacerlo con las especificaciones
 minimas para que pueda correr.
 
 BattleToads (NES):
+
 ![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/34d3c831-eb5d-4414-bce9-acd63b549762)
  
 En si el GameLoop sigue actualizando el juego sin ninguana restriccion 
@@ -437,6 +440,20 @@ Tambien hay que tener cuidado en no excederce en las velocidades con el
 anterior codigo propuesto, entonces lo controlaremos de la siguiente forma.
 
 #### Micro-sesión 4: 
+
+
+
+```c
+while (true)
+{
+  double start = getCurrentTime();
+  processInput();
+  update();
+  render();
+
+  sleep(start + MS_PER_FRAME - getCurrentTime());
+}
+```
 
 #### Micro-sesión 5: Cierre 
 
