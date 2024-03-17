@@ -442,7 +442,6 @@ anterior codigo propuesto, entonces lo controlaremos de la siguiente forma.
 #### Micro-sesión 4: 
 
 
-
 ```c
 while (true)
 {
@@ -454,8 +453,43 @@ while (true)
   sleep(start + MS_PER_FRAME - getCurrentTime());
 }
 ```
+sleep() se asegura que el juego no ande tan rapido cuando este
+ejecutando los frames. Si emepieza andar lento el juego, lo recomendable
+seria cortar los elementos graficos o quitar otros patrones de intelegencia
+para la maquina.
+
+Podriamos hacer lo siguiente: 
+El tiempo del juego avanza por cietra actualizacion a cierta cantidad.
+Y toma cierta cantidad de tiempo real para procesarlo. Si en lo ultimo
+toma mas tiempo que hacer lo primero, el juego le costara hacer grandez avances
+o moverse, abarcando aun mas el tiempo real costandole aun mas en hacer siguiente pasos.
+Llaman a esto varaible o fluid en el paso del tiempo:
+
+```c
+double lastTime = getCurrentTime();
+while (true)
+{
+  double current = getCurrentTime();
+  double elapsed = current - lastTime;
+  processInput();
+  update(elapsed);
+  render();
+  lastTime = current;
+}
+``` 
+Cada cuadro determina cuanto tiempo real ha pasado desde la 
+ultima actualizacion. Esto nos colabaro tanto maquinas viejas
+para que ande a la tasa de cuadros deseada y para las maquinas nuevas
+anda aun mejor de lo que se puede. Pero esto podria otro problema
+mas, dado que se podrian poner en competencia dos computadores
+totalmente distintos otorga ventajas a las computadoras mas potentes.
 
 #### Micro-sesión 5: Cierre 
+
+El Game Loop es extremadamente importante en el desarrollo de juegos, 
+ya que es la estructura fundamental que permite que el juego funcione 
+correctamente y se ejecute de manera fluida. Otorgandonos el renderizado,
+, interactividad, actualizacion del estado, y optimizaciones.
 
 
 ## SEMANA 8
