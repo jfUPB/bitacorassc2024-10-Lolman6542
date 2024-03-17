@@ -495,3 +495,47 @@ correctamente y se ejecute de manera fluida. Otorgandonos el renderizado,
 ## SEMANA 8
 
 ### Sesión 1
+
+#### Micro-sesión 1: Apertura
+
+Empezaremos con el uso de curso guia de Udemy para empezar el 
+desarrollo de nuestro videojuego. Y mas que eso al principo hablan sobre el
+uso de los motores graficos y definir GameLoops para que el entorno del desarrollo 
+sea mas comodo de lo habitual o almenos tener una idea en como trabajar con dichos motores.
+Ademas del Udo del lenguaje C y SDL en nuestro entorno de trabajo.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/d8f886ec-a015-4e94-8186-5de6d0d8f533)
+
+#### Micro-sesión 2: 
+
+Antes de empezar con la guia de trabajo o mas bien el proceso para organizar las Libreias SDL segun el 
+sistema Operativo, se me habia hecho tres preguntas.
+
+Una de ellas era ver ¿Cual es mi motor de Videojuegos favorito?
+Seria MT Framework y versiones posteriores que usaron.
+
+![Mtframework-logo](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/5bf5b17c-d788-42ac-84c0-c4f852b82aac)
+
+Una de la razones por las que me gusta el motor, es debido a lo facil que le resultaba a los desarrolladores
+en usar debido a que su arquictecura era similar a la de un PC, haciend que los ports de PC a consolas
+como la Xbox360 fuesen facil de hacer, junto a la gran variedad de elemento graficos que se pueden aplicar.
+
+Dead Risng 1 el primer juego de Capcom en usar este motor:
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/777abf16-a609-4c6b-9354-b2119cd616b0)
+
+
+Monster Hunter World, es de los ultimos juegos en usarlo:
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/d012a3c9-2cbe-4a50-8d35-8c3013d63c2c)
+
+Desconosco la veces que el motor llama por la funcion de Update, pero
+creo que es alrededor de los 10 ms para llamar un cuadro (Imagen de referente, cuando hay enemigos y mucha accion baja a los 30ms)
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/e1b512b1-1ff6-4066-b068-a2842b8b4b24)
+
+Consolas modernas 10ms y consolas antiguas 30-35
+
+en la guia habia un tutorial para instalar las herramientas de trabajo para el proyecto pero ya se habia hecho.
+
+#### Micro-sesión 3: 
