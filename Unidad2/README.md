@@ -539,3 +539,18 @@ Consolas modernas 10ms y consolas antiguas 30-35
 en la guia habia un tutorial para instalar las herramientas de trabajo para el proyecto pero ya se habia hecho.
 
 #### Micro-sesión 3: 
+
+Estube haciendo un pequeño Quiz de 2 preguntas acerca de SDL y de las dos funciones Draw y Update. 
+Ademas se puede apreciar en como se compila con GCC y un makefile, el cual permite ejecutar el
+programa deseado con cierto comandos.
+
+#### Micro-sesión 4: Cierre
+
+La creacion de los videojuegos pueden variar segun su proceso de desarrallo
+dado que estos pueden tomar bastantes años debido a lo complejo que pueden llegar
+a ser los motores de los videojuegos, es por ende importante ver lo que se puede 
+llegar hacer y lo que no, para seguir invirtiendo en algo mas.
+
+### Sesión 2
+
+#### Micro-sesión 1: Apertura
