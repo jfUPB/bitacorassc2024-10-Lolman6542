@@ -566,6 +566,11 @@ la creacion del rectangulo que el jugador usara, aun no podra mostrar el cuadro.
 
 ![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/d1a071fe-b172-4238-9ff0-25466089315b)
 
+Aca esta hecho:
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/a8f12c13-56ed-45e3-b96d-999e5e51c187)
+
+
 Tambien esta el codigo o una funcion para posicionar la ubicacion de la 
 bola por donde mas o menos podria arrancar. En resumen este codigo 
 es similar a un plano cartesiano en donde el valor de X es donde 
@@ -608,7 +613,44 @@ void render(void) {
   SDL_RenderPresent(renderer);
 }
 
+
 ```
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/09188f9a-73a9-441d-ae5a-82eacefc92e6)
+
 
 #### Micro-sesión 3:
 
+Para el siguiente ejercicio pintaremos los lienzo para ubicar las cosas en el SDL2
+Junto con el tema de double Buffering, entonces hize lo que me pidio lo que la guia me dijo que hiziera y
+eso era borrar la linea deseada. Al hacer esto la imagen del circulo y rectangulo desaparecieron.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/1a78121d-39d3-487a-8413-577370ad13b5)
+
+En teoria, el double buffering funciona al dos Buffers o espacio de memoria temporal, que 
+no seran referaenciado directamente en el array o fila, se llamara a otras dos funcciones
+que seran dibujadas en vez de las anteriorios mencionadas. Cuando se dibuje, se llama
+este sera referenciado por next y cuando se necesiten de otros pixeles
+se hara atravez de otro buffer llamado current. Al finalizar se usa el Swap
+para que este cambie de escene al finalizar la imagen, llamando las dos funciones 
+de arriba, logrando que los drivers al finalizar un render, basicamente ya tenga
+el otro hecho o listo para ser visto.
+
+#### Micro-sesión 4: Cierre
+
+Me parecio interesante que el problema del tearing se condidere un Bug,
+dado en que mis conocimientos acerca de este tema era algo mas "esporadico"
+(la verdad ni se como decirlo mejor) y que propiamente era V-sync el que 
+solucionaba el problema, dado que el era el encargado de que actulizace la
+la tasa de imagenes al tiempo concreto segun la tasa de refresco del
+monitor sin exceder. Propiamente el V-sync no es un limitador de Fotogramas
+pero ayuda a mantener al margen actual y que el problema del tearing se
+puede resolver con lineas de codigos.
+
+### Sesión 3
+
+#### Micro-sesión 1: Apertura
+
+Me encaargare de realizar el trabajo guia punto 12, que es en si el video 18 del
+la clase de Udemy, probar el codigo y ver si lo puedo modificar a a tal grado de 
+que cumpla los requisitos que me pide la unidad 2.
