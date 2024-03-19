@@ -554,3 +554,61 @@ llegar hacer y lo que no, para seguir invirtiendo en algo mas.
 ### Sesión 2
 
 #### Micro-sesión 1: Apertura
+
+Siguiendo con la actividad guia de la pagina oficial de Sistemas computacionales
+resulta que es similar a la actividad guia de Udemy, entonces mejor me quedo con la 
+pagina oficial del curso dado que esta en español.
+
+#### Micro-sesión 2: 
+
+En en la siguiente imagen se puede encontrar un cuadro de codigo que trata sobre
+la creacion del rectangulo que el jugador usara, aun no podra mostrar el cuadro.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/d1a071fe-b172-4238-9ff0-25466089315b)
+
+Tambien esta el codigo o una funcion para posicionar la ubicacion de la 
+bola por donde mas o menos podria arrancar. En resumen este codigo 
+es similar a un plano cartesiano en donde el valor de X es donde 
+se posiciona horizontalmente, el Y verticalmente. Como se muestra en la
+pantalla el valor de la bolar al arrancar en 0,0 estaria en la esquina superior izquierda.
+
+```c
+void DrawCircle(SDL_Renderer* renderer, int cx, int cy, int radius) {
+  for (int y = -radius; y <= radius; y++) {
+    for (int x = -radius; x <= radius; x++) {
+      if (x * x + y * y <= radius * radius) {
+        SDL_RenderDrawPoint(renderer, cx + x, cy + y);
+      }
+    }
+  }
+}
+
+ACTUALIZAR RENDER:
+
+void render(void) {
+  SDL_Rect rect;
+  rect.x = 250; // Posición x del rectángulo
+  rect.y = 150; // Posición y del rectángulo
+  rect.w = 200; // Ancho del rectángulo
+  rect.h = 100; // Alto del rectángulo
+
+  // Limpia el "lienzo" en este frame (?)
+  SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255); // Color de fondo: negro
+  SDL_RenderClear(renderer);
+
+  // Dibuja el rectángulo, pero aún no lo muestra
+  SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255); // Color del rectángulo: rojo
+  SDL_RenderFillRect(renderer, &rect);
+
+  // Dibuja el círculo
+  SDL_SetRenderDrawColor(renderer, 255, 255, 0, 255); // Amarillo
+  DrawCircle(renderer, 400, 360, 100); // Dibuja un círculo en (320, 240) con radio 100.
+
+  // Actualiza el lienzo
+  SDL_RenderPresent(renderer);
+}
+
+```
+
+#### Micro-sesión 3:
+
