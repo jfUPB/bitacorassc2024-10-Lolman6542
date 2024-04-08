@@ -654,3 +654,73 @@ puede resolver con lineas de codigos.
 Me encaargare de realizar el trabajo guia punto 12, que es en si el video 18 del
 la clase de Udemy, probar el codigo y ver si lo puedo modificar a a tal grado de 
 que cumpla los requisitos que me pide la unidad 2.
+
+#### Micro-sesión 2:
+
+Como tal ese codigo se encarga de presentar una ventana de cuadro negra
+en donde se aprecia una simulacion de una bola que va rebotando en el cuadro
+o los  bordes de la ventana, sin salirce de la vista del usuario.
+Junto a variables para que la el juego ande a fps deseados y constantes. 
+
+#### Micro-sesión 3:
+
+```c
+
+void update(void) {
+  static int last_frame_time = 0;
+
+//  while (!SDL_TICKS_PASSED(SDL_GetTicks(), last_frame_time + FRAME_TARGET_TIME));
+  int time_to_wait = FRAME_TARGET_TIME - (SDL_GetTicks() - last_frame_time);
+  if (time_to_wait > 0 && time_to_wait <= FRAME_TARGET_TIME) {
+    SDL_Delay(time_to_wait);
+  }
+
+  float delta_time = (SDL_GetTicks() - last_frame_time) / 1000.0F;
+  last_frame_time = SDL_GetTicks();
+
+  ball.x += 20* delta_time;
+  ball.y += 20* delta_time;
+}
+
+```
+
+- static int last_frame_time = 0; Esta variable se utiliza para almacenar el tiempo del último frame.
+
+- int time_to_wait = FRAME_TARGET_TIME - (SDL_GetTicks() - last_frame_time); Calcula cuánto tiempo falta para 
+que se alcance el tiempo objetivo por frame (FRAME_TARGET_TIME). Resta el tiempo transcurrido desde el último frame 
+(SDL_GetTicks() - last_frame_time) al tiempo objetivo por frame para obtener el tiempo que hay que esperar antes de 
+actualizar el siguiente frame.
+
+- if (time_to_wait > 0 && time_to_wait <= FRAME_TARGET_TIME) { ... }: Verifica si el tiempo de espera calculado es
+mayor que 0 y menor o igual al tiempo objetivo por frame. Si es así, significa que el programa está ejecutando 
+más rápido de lo necesario, por lo que se utiliza SDL_Delay() para esperar el tiempo restante antes de actualizar
+el siguiente frame. Esto se hace para mantener una velocidad de actualización constante.
+
+- float delta_time = (SDL_GetTicks() - last_frame_time) / 1000.0F;: Calcula el tiempo transcurrido desde el último
+ frame en segundos (dividiendo por 1000 para convertir de milisegundos a segundos).
+
+- ast_frame_time = SDL_GetTicks();: Actualiza last_frame_time con el tiempo actual, de modo que en la próxima llamada a update(), 
+se pueda calcular correctamente el tiempo transcurrido desde el último frame.
+
+- ball.x += 20 * delta_time; y ball.y += 20 * delta_time;: Actualiza la posición de la pelota 
+sumando un desplazamiento constante (20) multiplicado por delta_time. Esto asegura que la velocidad
+de la pelota sea constante independientemente de la velocidad de actualización del programa, lo que produce un movimiento suave y uniforme.
+
+#### Micro-sesión 4:
+
+Se puede apreciar que a lo ultimo del actividad guia hay un codigo similar al anterior solo que este mismo
+tipo mas cosas un rectangulo en donde podremos moverlos con las teclas direcionales para poder hacer rebotar la bola.
+Tambien note que el juego anda a 60 cuadros por segundos haciendo que el juego se sienta muy fluido.
+Note que hay una actividad demas que se encarga de agregarle fuentes al juego pero por ahora no es una prioridad.
+
+#### Micro-sesión 5:
+
+Interesante que muchos de incluido yo, andemos atrasados con la entrega de la Unidad 2, hasta el momento debo de 
+modificar el codigo para implementar todo lo que nos pide en la actividad general de la misma, que es hacer un juego 
+PVP de dos jugadores, con lineas verticales y al menos una barra de contador de puntos.
+
+## SEMANA 9 
+
+### Sesión 1
+
+#### Micro-sesión 1: Apertura
