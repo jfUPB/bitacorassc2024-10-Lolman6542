@@ -724,3 +724,9 @@ PVP de dos jugadores, con lineas verticales y al menos una barra de contador de 
 ### Sesión 1
 
 #### Micro-sesión 1: Apertura
+
+Ahora mismo empezare a desarrollar el juego como le llega a pedir la sesion de trabajo que es implementar
+todo lo que me pide osea, dos jugadores, lineas verticales y el contador de puntos.
+
+#### Micro-sesión 2: 
+
