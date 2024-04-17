@@ -730,3 +730,13 @@ todo lo que me pide osea, dos jugadores, lineas verticales y el contador de punt
 
 #### Micro-sesión 2: 
 
+Voy a instalar una biblioteca de SDL_TFF junto con su fuente correspondiente
+para que el juego funcione de la manera en la que estamos buscando, resulta que el proceso de instalacion es
+similiar como los anteriores.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/49ce5531-a847-43c4-a2b1-4f9216de69e0)
+
+#### Micro-sesión 3: 
+
+En esta parte me encargue de encontrar una fuente para mi juego, use google fonts ya que era la mas rapida
+
