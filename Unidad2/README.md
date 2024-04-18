@@ -732,11 +732,34 @@ todo lo que me pide osea, dos jugadores, lineas verticales y el contador de punt
 
 Voy a instalar una biblioteca de SDL_TFF junto con su fuente correspondiente
 para que el juego funcione de la manera en la que estamos buscando, resulta que el proceso de instalacion es
-similiar como los anteriores.
+similiar como los anteriores. 
 
 ![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/49ce5531-a847-43c4-a2b1-4f9216de69e0)
 
 #### Micro-sesión 3: 
 
-En esta parte me encargue de encontrar una fuente para mi juego, use google fonts ya que era la mas rapida
+En esta parte me encargue de encontrar una fuente para mi juego, use pixelmania.tff dado que era la que estaba
+funcionando con mi juego en el momento. Para esta lo que hize fue descargar la fuente y pegarla a la carpeta raiz de
+mi juego como tal.
 
+#### Micro-sesión 4: 
+
+Ahora mismo debo de poner hacer funcionar el codigo del marcador o almenos entenderlo, CHATGPT me logro proporcionar
+y modificar el codigo que juan franco nos habia pasado, junto con la ayuda de mis compañeros de clase.
+
+### Sesión 2
+
+#### Micro-sesión 1: Apertura
+
+Debo de mostrar el codigo que cargar la fuente y ver si puedo ajustar el contador para que este contando los
+numeros de cada uno de los jugadores.
+
+#### Micro-sesión 2: 
+
+Mientras estaba tratando de hacer funcionar el contador, el codigo me estaba imprimiendo error el 
+consistia en una linea de codigo para nada segura "sprinf", del cual la cambia por "sprint_s" logrando
+que el contador se lograra ver. (almenos ese fue un error que me ocurrio a mi).
+
+#### Micro-sesión 3:
+
+Junto 
