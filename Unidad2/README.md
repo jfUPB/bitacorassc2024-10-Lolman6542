@@ -762,4 +762,14 @@ que el contador se lograra ver. (almenos ese fue un error que me ocurrio a mi).
 
 #### Micro-sesión 3:
 
-Junto 
+Logre ajustar el codigo otra vez para poder hacer que la barra de puntajes, funciona como tal, es decir
+que se contaran los puntos. Aunque ahora mismo esta contando los puntos cuando la bola robota con la paleta
+y no al meter un gol al compañero. 
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/91f339ab-06bb-449e-982f-6727ff045379)
+
+#### Micro-sesión 4: cierre
+
+Hasta el momento ha sido un avanze interesante y algo comico debido a lo alterado que esta 
+la barra de puntajes. En la proxima de sesion vere que puedo hacer por corregir esto y ver si puedo modificar los 
+otra temas que me pide en agregar, si es que soy capaz, para ver si ya puedo empezar la unidad 3 que estoy muy atrasado.
