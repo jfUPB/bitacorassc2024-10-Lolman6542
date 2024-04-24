@@ -773,3 +773,66 @@ y no al meter un gol al compañero.
 Hasta el momento ha sido un avanze interesante y algo comico debido a lo alterado que esta 
 la barra de puntajes. En la proxima de sesion vere que puedo hacer por corregir esto y ver si puedo modificar los 
 otra temas que me pide en agregar, si es que soy capaz, para ver si ya puedo empezar la unidad 3 que estoy muy atrasado.
+
+### Sesión 3
+
+#### Micro-sesión 1: Apertura
+
+Dejar listo el codigo como tal el codigo lo mas listo posible. Para eso debo de encargarme de que este funcionando de manera 
+correcta y hacer los ultimos retoques que me pide.
+
+#### Micro-sesión 2:
+
+Ahora me encuentro ajustando el codigo para cuente el puntaje del los jugadores al meter un gol
+dado que solo me los estaba contando al tocar las paletas de los jugadores.
+
+#### Micro-sesión 3:
+
+Logre al fin terminar de arreglar el problema de las paletas que ganaban puntos al colisionar con
+las misma y no con la parte superior e inferior de la pantalla.
+
+```c
+// Update ball and paddle positions
+ball.x += ball.vel_x * delta_time;
+ball.y += ball.vel_y * delta_time;
+paddle_bottom.x += paddle_bottom.vel_x * delta_time;
+paddle_bottom.y += paddle_bottom.vel_y * delta_time;
+paddle_top.x += paddle_top.vel_x * delta_time;
+paddle_top.y += paddle_top.vel_y * delta_time;
+
+// Check for ball collision with walls
+if (ball.x <= 0 || ball.x + ball.width >= WINDOW_WIDTH)
+    ball.vel_x = -ball.vel_x;
+
+// Check if ball passed top or bottom of the screen
+if (ball.y + ball.height > WINDOW_HEIGHT) {
+    ball.x = WINDOW_WIDTH / 2;
+    ball.y = WINDOW_HEIGHT / 2;
+    ball.vel_y = -ball.vel_y;
+    score_player_top++;
+}
+if (ball.y < 0) {
+    ball.x = WINDOW_WIDTH / 2;
+    ball.y = WINDOW_HEIGHT / 2;
+    ball.vel_y = -ball.vel_y;
+    score_player_bottom++;
+}
+
+```
+En esta sección, eliminé la lógica de colisión con las paletas de los jugadores y agregué las condiciones para verificar si la bola llega a la parte superior o inferior de la pantalla. Cuando la bola llega a la parte superior, incrementamos el puntaje del jugador superior (score_player_top), y cuando llega a la parte inferior, incrementamos el puntaje del jugador inferior (score_player_bottom).
+
+Esto asegura que los puntajes se incrementen correctamente cuando la bola colisiona con la parte superior o inferior de la pantalla, como lo habías especificado.
+
+#### Micro-sesión 4:
+
+Hasta el momento se que me falta algunos retos por cumplir de la unidad 2, pero como el mismo profeor dijo
+que lo dejacemos hasta lo que tubiesemos y nos dedicaramos de lleno a terminar A EMPEZAR LA UNIDAD 3.
+De lo que tambien se puede mencionar es que hay un pequeño bug en las colisiones de las pantallas superiores e inferiores
+en vez de pasar y destruir la bola, las vuelven hacer rebotar.
+
+#### Micro-sesión 5: Cierre
+
+Fue divertido trabajar en la unidad 2 como tal, al tediosa en la parte de hacer funcionar los codigos y logicas de 
+las paletas fue algo complicado. Pero con ayuda de CHatGPTA logrmas mitigar, estos problemas. 
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/77fd41fb-b0d1-4f6c-ae56-51b2de7645cb)
