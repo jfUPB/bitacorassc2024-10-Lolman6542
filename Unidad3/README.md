@@ -32,27 +32,79 @@
 **Planeación:**
 
 1. ¿Qué voy a trabajar hoy?
+
+   R/= Lo que se hara hoy es aprender o almmenos recordar conceptos de de Programacion orientada a objetos (POO)
+   atravess del lenguage C que curiosamente no lo soporta, pero puede implementarse. Mas que todo revisar estos
+   temas para largo, durante su desarrollo en la unidad. y en concreto el Refactoring.
+
 2. ¿Cuál es mi objetivo principal para esta sesión?
 
+   R/= Acordarme de los temas de POO y entender que es el Refactoring.
+
 **Trabajo en concentración**
+
+La Programación Orientada a Objetos (POO) es un paradigma de programación que se basa en el concepto de "objetos".
+Estos objetos representan entidades del mundo real y tienen características (atributos) y comportamientos (métodos) asociados.
+La POO se centra en organizar el código de manera que las operaciones se realicen sobre objetos individuales, 
+lo que facilita la modularidad, la reutilización y la mantenibilidad del código.
 
 **Meta-aprendizaje:**
 
 3. ¿Qué he logrado en esta micro-sesión de trabajo?
+
+   R/= Encontrar con ayuda de ChatGPT, un resumen de lo que trata que es POO.
+
 4. ¿Con qué dificultades me encontré y cómo las abordé?
+
+   R/= Hasta el momento ninguno dado que ahora mismo estoy es revisando los conceptos
+   y fueron abordados con ayuda del ChatGPT.
+
 5. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
+
+    R/= Si voy bien, debo de ver los conceptos claves de POO.
+
 6. ¿Qué he aprendido o reforzado en esta micro-sesión? 
+    
+   R/= Poo se encarga de organizar los codigos de manera que las operaciones 
+   se realicen sobre objetos individuales, facilitando la modularidad, 
+   reutilizacion y mantebilidad de codigo, optimizandolo al maximo.
 
 #### Micro-sesión 2 (25 minutos)
 
 **Trabajo en concentración**
 
+Clases y Objetos: 
+Una clase es una plantilla o modelo para crear objetos. Define los atributos 
+y métodos que tendrán los objetos de esa clase. 
+Por ejemplo, una clase "Coche" puede tener atributos como color, marca, modelo, y métodos como acelerar, frenar, etc.
+Un objeto es una instancia de una clase específica, es decir, una representación concreta de esa clase.
+
+Encapsulamiento: 
+Es el principio que consiste en ocultar los detalles internos de un objeto y exponer solo los métodos necesarios para interactuar con él.
+Esto se logra mediante el uso de modificadores de acceso como public, private y protected 
+en la definición de atributos y métodos de una clase.
+
 **Meta-aprendizaje:**
 
 1. ¿Qué he logrado en esta micro-sesión de trabajo?
+
+  R/= Encontrar de que es lo que trata los conceptos de Clases y Obejetos junto Encapsulamiento.
+
 2. ¿Con qué dificultades me encontré y cómo las abordé?
+
+  R/= Hasta el momento ninguno dado que ahora mismo estoy es revisando los conceptos
+   y fueron abordados con ayuda del ChatGPT.
+    
 3. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
+
+  R/= Me encuentro mas cerca solo debo de seguir con los otros que falta por
+  encontrar y entender.
+
 4. ¿Qué he aprendido o reforzado en esta micro-sesión? 
+
+  R/= En general, Los objetos son una represaticon de una clase y estas Clases son las 
+  caracteristicas y atributos que poseen. Mientras que el encapsulamiento trata de ocultar
+  detalles de los objetos mediante comandos que pueden usarse en las clases.
 
 #### Micro-sesión 3 (25 minutos)
 
