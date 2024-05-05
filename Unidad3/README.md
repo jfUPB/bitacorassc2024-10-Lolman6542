@@ -110,20 +110,56 @@ en la definición de atributos y métodos de una clase.
 
 **Trabajo en concentración**
 
+Herencia:
+Permite crear una nueva clase (subclase o clase derivada) basada en una clase existente (superclase o clase base).
+La subclase hereda los atributos y métodos de la superclase, lo que fomenta la reutilización de código y la jerarquía de clases. 
+Por ejemplo, una subclase "SUV" podría heredar de la clase "Coche".
+
+Polimorfismo:
+Es la capacidad de un objeto para comportarse de diferentes formas según el contexto. Puede manifestarse de varias maneras,
+como el sobrecargado de métodos (mismos nombres de métodos pero con diferentes parámetros) y la sobreescritura de métodos 
+(métodos con el mismo nombre y firma en la clase base y sus subclases, pero con implementaciones diferentes).
+
 **Meta-aprendizaje:**
 
-1. ¿Qué he logrado en esta micro-sesión de trabajo?
+1. ¿Qué he logrado en esta micro-sesión de trabajo?  
+
+  R/= Sí ya encontre los conceptos que faltaban, de lo que es POO en resumen.
+
 2. ¿Con qué dificultades me encontré y cómo las abordé?
-3. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
-4. ¿Qué he aprendido o reforzado en esta micro-sesión? 
+
+  R/= Hasta el momento ninguno dado que ahora mismo estoy es revisando los conceptos
+    y fueron abordados con ayuda del ChatGPT.
+   
+4. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
+
+  R/= En el momento si para cerrar esta sesión, solo faltaria el Refactory como tal.
+
+5. ¿Qué he aprendido o reforzado en esta micro-sesión? 
+
+  R/= Como tal herencia se puede era atributos de una clase, pasarcelas a otra que seria Superclase
+  de los que cuales tendria los atributos de dicha clase que hereda y sus propios atributos por ser una nueva.
+  Mientras que el polimorfismo al enviar el mismo mensaje desde distintos objetos, cada uno de esos objetos
+  pueda responder a ese mensaje  de forma distinta. 
 
 #### Micro-sesión 4. (25 minutos)
 
 **Trabajo en concentración**
 
+El refactoring (o refactorización) es una técnica utilizada en programación para mejorar la estructura interna del código
+sin cambiar su comportamiento externo. Básicamente, consiste en reorganizar el código para que sea más fácil 
+de entender, mantener y modificar en el futuro, sin afectar su funcionalidad.
+
+Algunas de las acciones comunes que se realizan durante el refactoring incluyen la eliminación de código duplicado,
+la simplificación de bloques de código complejos, la mejora de nombres de variables y funciones para que sean más descriptivos,
+y la reorganización de la estructura del código para que sea más coherente y legible.
+
 **Meta-aprendizaje:**
 
 1. ¿Qué he logrado en esta micro-sesión de trabajo?
+
+  R/=  
+
 2. ¿Con qué dificultades me encontré y cómo las abordé?
 3. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
 4. ¿Qué he aprendido o reforzado en esta micro-sesión?
