@@ -45,6 +45,24 @@ usando la siguiente plantilla:
 
 #### Sesión 1
 
+
+Ahora mismo estamos resolviendo los primeros ejercicios de seccion de Investigación
+de la Unidad 4, por lo tanto se dara como la resolucion algunos ejercios tanto aca
+en la bitcara, como en el espacio de trabajo CodeSpace.
+
+Ejercicio 1: ¿Qué es un sistema operativo?
+
+Es el software principal que coordina y controla todas las actividades de una computadora o dispositivo electrónico, facilitando su uso y asegurando su funcionamiento eficiente y seguro.
+
+Ejerciciio 2:
+
+¿Cuál es la diferencia entre un programa y un proceso?
+
+- Un programa es el conjunto de instrucciones y datos almacenados en el sistema, mientras que un proceso es una instancia en ejecución de ese programa que tiene recursos asignados y está siendo gestionado por el sistema operativo.
+
+- ¿Puedo tener múltiples procesos corriendo el mismo programa?
+
+
 #### Sesión 2
 
 #### Sesión 3
