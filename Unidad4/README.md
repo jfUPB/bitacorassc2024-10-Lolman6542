@@ -54,13 +54,33 @@ Ejercicio 1: ¿Qué es un sistema operativo?
 
 Es el software principal que coordina y controla todas las actividades de una computadora o dispositivo electrónico, facilitando su uso y asegurando su funcionamiento eficiente y seguro.
 
-Ejerciciio 2:
+Ejercicio 2:
 
 ¿Cuál es la diferencia entre un programa y un proceso?
 
 - Un programa es el conjunto de instrucciones y datos almacenados en el sistema, mientras que un proceso es una instancia en ejecución de ese programa que tiene recursos asignados y está siendo gestionado por el sistema operativo.
 
-- ¿Puedo tener múltiples procesos corriendo el mismo programa?
+¿Puedo tener múltiples procesos corriendo el mismo programa?
+
+- Sí, es posible tener múltiples procesos ejecutando el mismo programa al mismo tiempo. Este escenario se conoce como "multiprocesamiento" o "multiprogramación". 
+
+En un sistema operativo que admite multiprocesamiento, como la mayoría de los sistemas modernos, cada vez que un programa se ejecuta, el sistema operativo crea un nuevo proceso para ese programa. Esto significa que puedes tener varias instancias de un programa en ejecución al mismo tiempo, cada una como un proceso independiente con su propio espacio de memoria y recursos asignados.
+
+- ¿Para qué sirve el stack de un proceso?
+
+El stack de un proceso es esencial para la gestión eficiente de llamadas a funciones, variables locales y retorno de funciones en un programa. Proporciona un mecanismo ordenado para la ejecución de funciones y la gestión de datos locales dentro de un proceso.
+
+- ¿Para qué sirve el heap de un proceso?
+
+Es una región de memoria dinámica utilizada para asignar memoria de forma dinámica durante la ejecución del programa, permitiendo la gestión flexible de estructuras de datos, objetos y variables que no tienen un tamaño fijo en tiempo de compilación.
+
+- ¿Qué es la zona de texto de un proceso?
+
+Almacenan las instrucciones ejecutables del programa, es de solo lectura, puede ser compartida entre procesos y está protegida para garantizar la integridad y seguridad del código ejecutable.
+
+- ¿Dónde se almacenan las variables globales inicializadas?
+
+En el segmento de datos estáticos Y Heap. Las variables globales inicializadas pueden almacenarse en diferentes áreas de memoria según su alcance y tipo. Por ejemplo, las variables globales estáticas se almacenan en el segmento de datos estáticos, mientras que las variables globales no estáticas se pueden almacenar en el heap o en otras áreas de memoria según las necesidades del programa.
 
 
 #### Sesión 2
