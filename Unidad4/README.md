@@ -48,7 +48,7 @@ usando la siguiente plantilla:
 
 Ahora mismo estamos resolviendo los primeros ejercicios de seccion de Investigación
 de la Unidad 4, por lo tanto se dara como la resolucion algunos ejercios tanto aca
-en la bitcara, como en el espacio de trabajo CodeSpace.
+en la bitcara, como en el espacio de trabajo CodeSpace a futuro.
 
 Ejercicio 1: ¿Qué es un sistema operativo?
 
@@ -81,6 +81,37 @@ Almacenan las instrucciones ejecutables del programa, es de solo lectura, puede 
 - ¿Dónde se almacenan las variables globales inicializadas?
 
 En el segmento de datos estáticos Y Heap. Las variables globales inicializadas pueden almacenarse en diferentes áreas de memoria según su alcance y tipo. Por ejemplo, las variables globales estáticas se almacenan en el segmento de datos estáticos, mientras que las variables globales no estáticas se pueden almacenar en el heap o en otras áreas de memoria según las necesidades del programa.
+
+- ¿Dónde se almacenan las variables globales no inicializadas?
+
+Segmento de datos no inicializados (BSS), reserva para variables globales y estáticas que no se inicializan explícitamente en el código. El Stack en algunos compiladores y sistemas operativos pueden almacenar temporariamente las variables globales no inicializadas en el stack durante la inicialización del programa. Heap En ciertos casos, especialmente cuando las variables globales no inicializadas son objetos o estructuras de datos complejas, pueden ser almacenadas en el heap.
+
+- ¿Cuáles son los posibles estados de un proceso en general? Ten en cuenta que esto varía entre sistemas operativos.
+
+Listo (Ready): El proceso está listo para ser ejecutado por el procesador, pero aún no se le ha asignado tiempo de CPU. Está en espera de que el planificador de procesos lo seleccione para la ejecución.
+
+Ejecución (Running): El proceso está siendo ejecutado por la CPU en este momento. Solo un proceso puede estar en este estado en un momento dado en un sistema monoprocesador, mientras que en sistemas multiprocesador, varios procesos pueden estar en estado de ejecución simultáneamente en diferentes núcleos.
+
+Bloqueado (Blocked o Waiting): El proceso está esperando que ocurra algún evento, como la finalización de una operación de entrada/salida (E/S), la liberación de un recurso, o la recepción de una señal, para poder continuar su ejecución. Mientras está bloqueado, el proceso no utiliza la CPU.
+
+Listo suspendido (Ready Suspended): El proceso está listo para ejecutarse, pero se encuentra en un estado de suspensión temporal. Esto puede ocurrir debido a que se ha pausado manualmente, por decisión del sistema operativo para priorizar otros procesos, o por otras razones.
+
+Bloqueado suspendido (Blocked Suspended): Similar al estado de bloqueado, pero el proceso está suspendido temporalmente mientras espera la ocurrencia de un evento específico. Está en espera y suspendido simultáneamente.
+
+Terminado (Terminated): El proceso ha finalizado su ejecución de manera exitosa o ha sido finalizado por el sistema operativo debido a un error. En este estado, se liberan los recursos que estaba utilizando el proceso.
+
+
+
+Ejercicio 3: Concepto de hilo
+
+
+Es una unidad de ejecución dentro de un proceso que permite la multitarea a nivel de proceso, mejora la eficiencia y la concurrencia en los programas, y facilita la comunicación y la sincronización entre diferentes partes del código.
+
+Ahora lo que hizimos fue resolver las preguntas de los ejercicios 1, 2 y 3. Y como tal el proposito de estas fueron de como La CPU y el sistema operativa de un computador pueden hacer varias tareas, ejecutar programas, tener servicios activos. Gracias a los hilos que ejecutan intrucciones de manera independiente al proceso que se este corriendo.
+
+Los resultados de las actividades fueron las preguntas que fueron resueltas o respondidas e la indagacion de los conceptos.
+
+Dar a conocer en cómo funcionan los programas y procesos en un sistema operativo y a su vez optimizar el rendimiento, resolver problemas rapido y el diseño de Software optimo.
 
 
 #### Sesión 2
