@@ -56,15 +56,13 @@ Es el software principal que coordina y controla todas las actividades de una co
 
 Ejercicio 2:
 
-¿Cuál es la diferencia entre un programa y un proceso?
+- ¿Cuál es la diferencia entre un programa y un proceso?
 
-- Un programa es el conjunto de instrucciones y datos almacenados en el sistema, mientras que un proceso es una instancia en ejecución de ese programa que tiene recursos asignados y está siendo gestionado por el sistema operativo.
+ Un programa es el conjunto de instrucciones y datos almacenados en el sistema, mientras que un proceso es una instancia en ejecución de ese programa que tiene recursos asignados y está siendo gestionado por el sistema operativo.
 
-¿Puedo tener múltiples procesos corriendo el mismo programa?
+- ¿Puedo tener múltiples procesos corriendo el mismo programa?
 
-- Sí, es posible tener múltiples procesos ejecutando el mismo programa al mismo tiempo. Este escenario se conoce como "multiprocesamiento" o "multiprogramación". 
-
-En un sistema operativo que admite multiprocesamiento, como la mayoría de los sistemas modernos, cada vez que un programa se ejecuta, el sistema operativo crea un nuevo proceso para ese programa. Esto significa que puedes tener varias instancias de un programa en ejecución al mismo tiempo, cada una como un proceso independiente con su propio espacio de memoria y recursos asignados.
+ Sí, es posible tener múltiples procesos ejecutando el mismo programa al mismo tiempo. Este escenario se conoce como "multiprocesamiento" o "multiprogramación". En un sistema operativo que admite multiprocesamiento, como la mayoría de los sistemas modernos, cada vez que un programa se ejecuta, el sistema operativo crea un nuevo proceso para ese programa. Esto significa que puedes tener varias instancias de un programa en ejecución al mismo tiempo, cada una como un proceso independiente con su propio espacio de memoria y recursos asignados.
 
 - ¿Para qué sirve el stack de un proceso?
 
@@ -86,7 +84,8 @@ En el segmento de datos estáticos Y Heap. Las variables globales inicializadas 
 
 Segmento de datos no inicializados (BSS), reserva para variables globales y estáticas que no se inicializan explícitamente en el código. El Stack en algunos compiladores y sistemas operativos pueden almacenar temporariamente las variables globales no inicializadas en el stack durante la inicialización del programa. Heap En ciertos casos, especialmente cuando las variables globales no inicializadas son objetos o estructuras de datos complejas, pueden ser almacenadas en el heap.
 
-- ¿Cuáles son los posibles estados de un proceso en general? Ten en cuenta que esto varía entre sistemas operativos.
+- ¿Cuáles son los posibles estados de un proceso en general? Ten en cuenta que esto varía entre sistemas 
+operativos.
 
 Listo (Ready): El proceso está listo para ser ejecutado por el procesador, pero aún no se le ha asignado tiempo de CPU. Está en espera de que el planificador de procesos lo seleccione para la ejecución.
 
@@ -101,9 +100,7 @@ Bloqueado suspendido (Blocked Suspended): Similar al estado de bloqueado, pero e
 Terminado (Terminated): El proceso ha finalizado su ejecución de manera exitosa o ha sido finalizado por el sistema operativo debido a un error. En este estado, se liberan los recursos que estaba utilizando el proceso.
 
 
-
 Ejercicio 3: Concepto de hilo
-
 
 Es una unidad de ejecución dentro de un proceso que permite la multitarea a nivel de proceso, mejora la eficiencia y la concurrencia en los programas, y facilita la comunicación y la sincronización entre diferentes partes del código.
 
@@ -115,6 +112,9 @@ Dar a conocer en cómo funcionan los programas y procesos en un sistema operativ
 
 
 #### Sesión 2
+
+
+
 
 #### Sesión 3
 
