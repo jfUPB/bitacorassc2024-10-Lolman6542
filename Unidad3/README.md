@@ -124,7 +124,18 @@ como el sobrecargado de métodos (mismos nombres de métodos pero con diferentes
 
 1. ¿Qué he logrado en esta micro-sesión de trabajo?  
 
-  R/= Sí ya encontre los conceptos que faltaban, de lo que es POO en resumen.
+  R/= Sí ya encontre los conceptos que faltaban, de lo que es Herencia y Polimorfismo en resumen.
+
+Herencia:
+Permite crear una nueva clase (subclase o clase derivada) basada en una clase existente (superclase o clase base).
+La subclase hereda los atributos y métodos de la superclase, lo que fomenta la reutilización de código y la jerarquía de clases. 
+Por ejemplo, una subclase "SUV" podría heredar de la clase "Coche".
+
+Polimorfismo:
+Es la capacidad de un objeto para comportarse de diferentes formas según el contexto. Puede manifestarse de varias maneras,
+como el sobrecargado de métodos (mismos nombres de métodos pero con diferentes parámetros) y la sobreescritura de métodos 
+(métodos con el mismo nombre y firma en la clase base y sus subclases, pero con implementaciones diferentes).
+  
 
 2. ¿Con qué dificultades me encontré y cómo las abordé?
 
@@ -146,7 +157,12 @@ como el sobrecargado de métodos (mismos nombres de métodos pero con diferentes
 
 **Trabajo en concentración**
 
-El refactoring (o refactorización) es una técnica utilizada en programación para mejorar la estructura interna del código
+**Meta-aprendizaje:**
+
+1. ¿Qué he logrado en esta micro-sesión de trabajo?
+
+  R/= Un resumen de lo que trata el refactoring.
+  El refactoring (o refactorización) es una técnica utilizada en programación para mejorar la estructura interna del código
 sin cambiar su comportamiento externo. Básicamente, consiste en reorganizar el código para que sea más fácil 
 de entender, mantener y modificar en el futuro, sin afectar su funcionalidad.
 
@@ -154,22 +170,40 @@ Algunas de las acciones comunes que se realizan durante el refactoring incluyen 
 la simplificación de bloques de código complejos, la mejora de nombres de variables y funciones para que sean más descriptivos,
 y la reorganización de la estructura del código para que sea más coherente y legible.
 
-**Meta-aprendizaje:**
-
-1. ¿Qué he logrado en esta micro-sesión de trabajo?
-
-  R/=  
-
 2. ¿Con qué dificultades me encontré y cómo las abordé?
+   
+   R/= Hatas el momento, no me he encontrado ningun problema y lo resolvi con ayuda de chatGPT.
+   
 3. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
+
+   R/= Si ya termine de revisar como tal el concepto de POO, por ahora no hay nada que hacer.
+
 4. ¿Qué he aprendido o reforzado en esta micro-sesión?
+
+   R/= Reduce la complejidad, facilita la detección y corrección de errores, y hace que el código sea más fácil
+   de mantener y ampliar a medida que evoluciona el proyecto.
 
 **Cierre de sesión:**
 
 5. ¿He alcanzado los objetivos planteados al inicio? Si no, ¿por qué y qué puedo mejorar?
+
+R/= Si ya me acorde un poco mas de lo que iba POO y su refactoring, tengo que mejor la distribución del tiempo
+y sintetizar mis respuestas.
+  
 6. ¿Cuáles fueron los desafíos más significativos de hoy y cómo los superé?
+
+R/= Hasta el momento no a habido ningun problema, dado que lo que me dedique en esta sesion era un repaso 
+de los conceptos de POO y el refactoring, tal vez lo mas complicado fue el tema refactoring, logre resolver mi dudas del temas
+con investigaciones en internet y herramientas como ChatGPT.
+
 7. Basado en el trabajo de hoy, ¿qué insights importantes he ganado?
+
+R/= De que trata el tema de POO y sus conceptos. Por ahora ha sido simple, pero debo de seguir con su fase de experimetación.
+
 8. ¿Cuáles son los pasos siguientes para continuar avanzando en el proyecto?
+
+R/= Ahora mismo debo de seguir solucionando los otros Retos que hay en la fase de experimatanción, 
+debo de poner aprueba o ejecutar los programas de Encapsulamiento con lenguaje C, en el visual.
 
 ### Sesión 2
 
