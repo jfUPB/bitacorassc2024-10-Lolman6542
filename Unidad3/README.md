@@ -43,16 +43,15 @@
 
 **Trabajo en concentración**
 
-La Programación Orientada a Objetos (POO) es un paradigma de programación que se basa en el concepto de "objetos".
-Estos objetos representan entidades del mundo real y tienen características (atributos) y comportamientos (métodos) asociados.
-La POO se centra en organizar el código de manera que las operaciones se realicen sobre objetos individuales, 
-lo que facilita la modularidad, la reutilización y la mantenibilidad del código.
-
 **Meta-aprendizaje:**
 
 3. ¿Qué he logrado en esta micro-sesión de trabajo?
 
-   R/= Encontrar con ayuda de ChatGPT, un resumen de lo que trata que es POO.
+   R/= Un resumen de lo que trata que es POO. 
+    La Programación Orientada a Objetos (POO) es un paradigma de programación que se basa en el concepto de "objetos".
+    Estos objetos representan entidades del mundo real y tienen características (atributos) y comportamientos (métodos) asociados.
+    La POO se centra en organizar el código de manera que las operaciones se realicen sobre objetos individuales, 
+    lo que facilita la modularidad, la reutilización y la mantenibilidad del código., un resumen de lo que trata que es POO.
 
 4. ¿Con qué dificultades me encontré y cómo las abordé?
 
@@ -73,6 +72,12 @@ lo que facilita la modularidad, la reutilización y la mantenibilidad del códig
 
 **Trabajo en concentración**
 
+**Meta-aprendizaje:**
+
+1. ¿Qué he logrado en esta micro-sesión de trabajo?
+
+  R/= Encontrar de que es lo que trata los conceptos de Clases y Obejetos junto Encapsulamiento.
+
 Clases y Objetos: 
 Una clase es una plantilla o modelo para crear objetos. Define los atributos 
 y métodos que tendrán los objetos de esa clase. 
@@ -84,11 +89,6 @@ Es el principio que consiste en ocultar los detalles internos de un objeto y exp
 Esto se logra mediante el uso de modificadores de acceso como public, private y protected 
 en la definición de atributos y métodos de una clase.
 
-**Meta-aprendizaje:**
-
-1. ¿Qué he logrado en esta micro-sesión de trabajo?
-
-  R/= Encontrar de que es lo que trata los conceptos de Clases y Obejetos junto Encapsulamiento.
 
 2. ¿Con qué dificultades me encontré y cómo las abordé?
 
