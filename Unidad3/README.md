@@ -181,7 +181,7 @@ y la reorganización de la estructura del código para que sea más coherente y 
 4. ¿Qué he aprendido o reforzado en esta micro-sesión?
 
    R/= Reduce la complejidad, facilita la detección y corrección de errores, y hace que el código sea más fácil
-   de mantener y ampliar a medida que evoluciona el proyecto.
+   de mantener y ampliar a medida que evoluciona el proyecto (Perdon si avanze antes).
 
 **Cierre de sesión:**
 
@@ -212,16 +212,48 @@ debo de poner aprueba o ejecutar los programas de Encapsulamiento con lenguaje C
 **Planeación:**
 
 1. ¿Qué voy a trabajar hoy?
+
+R/= Continuare con los ejercicios de la fase de investigación, mas que todo empezar a ejecutar programas/codigos.
+
 2. ¿Cuál es mi objetivo principal para esta sesión?
+
+R/= Desatrasarme de las bitacoras de esta unidad, y mas que todo seguir continuando con la fase de investigación.
+Respondi las siguientes preguntas que planteaba la bitacora:
+
 
 **Trabajo en concentración**
 
 **Meta-aprendizaje:**
 
 3. ¿Qué he logrado en esta micro-sesión de trabajo?
+
+R/= Me dedique hacer el ejercicio 1 dado que me lo habia saltado en la anterior sesión debido a que me dedique a buscar los conceptos.
+- ¿En qué parte del programa se crean objetos?
+  Estos se crean fuera de la función principal (main) utilizando el constructor "Shape_ctor". Si se crea un objeto Shape, llamariamos a 
+  "Shape_ctor" con un puntero a una variable tipo Shape, pasando las coordenadas X e Y como argumentos.
+- ¿En que parte de la memoria estan creados los objetos?
+  Se almacenan en un segmento de memoria llamado "Heap", usando un operador malloc dentro del constructor "Shape_ctor", asignado
+  de manera dinamica memoria en el heap durante el tiempo de ejecucion del programa.
+- ¿Que es un Objeto?
+  Es una instacia de una estructura o clase en POO , del cual cada objeto tiene sus propias variables y pueden tener sus 
+  propios metodos asociados para manipular esos datos, tambien permiten mdelar entidades del mundo real dentro de un programa de computador y facilita
+  la modularidad y reutilizacion de codigo.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/188d84ff-ec28-4ef1-a919-312705b8ac93)
+
+
 4. ¿Con qué dificultades me encontré y cómo las abordé?
+
+  R/= No me he encontrado ninguna dificultad, aunque me toco usar una plantilla vieja de Pong para que funcionace el codigo.
+
 5. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
+
+  R/= No, debo de seguir contuniando con la fase de investigacion para seguir reportando en la bitacaro.
+
 6. ¿Qué he aprendido o reforzado en esta micro-sesión? 
+
+  R/= Por ahora esto otra vez reforzando el concepto de encapsulamiento y su implementacion en el programa,
+  dado que la sesion pasada me puse a investifar los conceptos primero.
 
 #### Micro-sesión 2 (25 minutos)
 
