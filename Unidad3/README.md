@@ -202,7 +202,7 @@ R/= De que trata el tema de POO y sus conceptos. Por ahora ha sido simple, pero 
 
 8. ¿Cuáles son los pasos siguientes para continuar avanzando en el proyecto?
 
-R/= Ahora mismo debo de seguir solucionando los otros Retos que hay en la fase de experimatanción, 
+R/= Ahora mismo debo de seguir solucionando los otros Retos que hay en la fase de investigación, 
 debo de poner aprueba o ejecutar los programas de Encapsulamiento con lenguaje C, en el visual.
 
 ### Sesión 2
@@ -318,16 +318,54 @@ del resto pude seguir y no se presento otro problema.
 **Meta-aprendizaje:**
 
 1. ¿Qué he logrado en esta micro-sesión de trabajo?
+
+  R/= Estando en el ejercicio 6 ¿Cual es el estado y el comportamiento? El estado de un objeto Shape  
+  se define por las propiedades X e Y, que representan las coordenas del plano bidimensional.
+  Estas propiedades determinan la posición del Objeto en la ventana grafica y el Comportamiento  
+  de un un objeto Shape se define por las funciones proporcionadas:  
+
+  - Shape_ctor(Shape * const me, int16_t x, int16_t y): Inicia un objeto Shape con valores especificos para las coordenadas X e Y.
+  - Shape_dtor(Shape * const me): Libera la memoria u realiza otras tareas de limpieza cuando un objeto Shape ya no es necesario.
+  - Shape_moveby(Shape * const me, int16_t dx, int16_t dy): Permite mover el objeto Shape en la ventana gráfica agregando los  
+    desplazamientos dx y dy a sus cooredenadas X e Y, respectivamente.
+  - int16_t Shape_getX(Shape const * const me): Esta función devuelve la coordenada x actual del objeto Shape.
+  - int16_t Shape_getY(Shape const * const me): Esta función devuelve la coordenada y actual del objeto Shape.
+
+
 2. ¿Con qué dificultades me encontré y cómo las abordé?
+
+  R/= Creo que debere ponerme en practica para lograr entender bien el concepto, antes de seguir estando perdido
+  para su implementacion en lenguage C.
+
 3. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
+
+  R/= Estoy reforzando de a poco el tema de encapsulamiento, pero debo de seguir investigando para seguir resolviendo
+  otros problemas o desafios.
+
 4. ¿Qué he aprendido o reforzado en esta micro-sesión?
+
+  R/= Que la clase llamada Shape, incluyen muchas funciones de las cuales puede crear, destruir, 
+  mover y obtener las coordenadas de objetos Shape en un plano bidimensional.
 
 **Cierre de sesión:**
 
 5. ¿He alcanzado los objetivos planteados al inicio? Si no, ¿por qué y qué puedo mejorar?
+
+  R/= se podria decir que sí, reforce una vez mas tema de encapsulamiento. Debo de contuniar con la fase de
+  investigación para continuar reforzando y aprendiendo.
+
 6. ¿Cuáles fueron los desafíos más significativos de hoy y cómo los superé?
+
+  R/= Implementar POO en un lenguaje que no lo soportaba nativamente que en este caso es el C,
+  pero con ayuda del tema Encapsulamiento, y sus ejercicios e investigación estoy alcanzandolo.
+
 7. Basado en el trabajo de hoy, ¿qué insights importantes he ganado?
+
+  R/= Hasta este momento el como implementar y entender el concepto de encapsulamiento.
+
 8. ¿Cuáles son los pasos siguientes para continuar avanzando en el proyecto?
+
+  R/= Ahora me tocara empezar a entender e implementar la función de la herencia y polimorfismo en lenguaje C para la otra sesión. 
 
 ### Sesión 3
 
