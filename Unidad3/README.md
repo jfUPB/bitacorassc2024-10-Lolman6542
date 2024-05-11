@@ -262,9 +262,24 @@ R/= Me dedique hacer el ejercicio 1 dado que me lo habia saltado en la anterior 
 **Meta-aprendizaje:**
 
 1. ¿Qué he logrado en esta micro-sesión de trabajo?
+
+  R/= Para el ejercicio 3 hice el ejemplo el cial encapsulamos las propiedades de un rectangulo y un circulo dentro de
+  las dentro de las estructuras Rectangle y Circle, respectivamente. Ademas implemente un metodo intersect para verificar   
+  si los dos objetos se intersectan entre sí. En el bucle principal del programa dibujamos el rectangulo y el círculo  
+  en la ventana de SDL y cambimos el color de la línea que los conecta dependiendo de si se intersectan o no.
+
 2. ¿Con qué dificultades me encontré y cómo las abordé?
+
+R/= Lo mas dificil fue hacer el ejercicio 3 ya que tuve varios errores en el codigo y no me compilaba correctamente,
+del resto pude seguir y no se presento otro problema.
+  
 3. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
+
+  R/= Aun faltan otros ejercicios de la fase de investiganción por responder...
+
 4. ¿Qué he aprendido o reforzado en esta micro-sesión? 
+
+  R/= Mas que todo en como implementar correctamente el encapsulamiento y fue hecho tomando como fuente el ejercicio 1.
 
 #### Micro-sesión 3 (25 minutos)
 
@@ -273,9 +288,28 @@ R/= Me dedique hacer el ejercicio 1 dado que me lo habia saltado en la anterior 
 **Meta-aprendizaje:**
 
 1. ¿Qué he logrado en esta micro-sesión de trabajo?
+
+  R/= Empece a responder preguntas acerca del ejercio 4 y 5 de lo que es un PLAN o MODELO. Basicamente el profesor 
+  nos invita a que antes de que empecemos a programar, hay que pensar todas las cosas queremos diseñar e implementar,
+  si a mucho tenerlo en papel. Tambien esta la pregunta del Constructor de una clase y su función, que en Lenguaje C
+  utilizando las bibliotecas SDL un constructor de clase es similar, aunque el lenguaje y las bibliotecas puedan imponer
+  algunas diferencias en su implementación, dado que no hay un concepto nativo de clases o constructores como lo hay 
+  en otros como C++ O Java. Pero puede ser emulado un constructor en C definiendo una función que inicializa una estructura   
+  específica con valores iniciales.
+
 2. ¿Con qué dificultades me encontré y cómo las abordé?
+
+  R/= Hasta el momento todo bien, pero talvez sea algo complicado al programarlo.
+
 3. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
+
+  R/= Aun falta ejercios por en la fase de investigacion, debo de seguir.
+
 4. ¿Qué he aprendido o reforzado en esta micro-sesión? 
+
+  R/= Que es mejor plantearse de lo que se puede y no se puede hacer con un lenguaje de programación,
+  tanto conocer nuestros limites como del mismo lenguaje, para asi poder un buen diseño del mismo.
+
 
 #### Micro-sesión 4. (25 minutos)
 
