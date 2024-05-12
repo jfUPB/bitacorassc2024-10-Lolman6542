@@ -374,16 +374,45 @@ del resto pude seguir y no se presento otro problema.
 **Planeación:**
 
 1. ¿Qué voy a trabajar hoy?
+
+  R/= Seguir trabajando en la Bitacora porque estoy muy atrasado.
+
 2. ¿Cuál es mi objetivo principal para esta sesión?
+
+  R/= Estare trabajando los siguientes ejercicios de la fase de investigación, que son herencia para poder implementarlos.
 
 **Trabajo en concentración**
 
 **Meta-aprendizaje:**
 
 3. ¿Qué he logrado en esta micro-sesión de trabajo?
+
+  R/= Salte hacia el ejercicio 9, cual tienes varias preguntas por responder. ¿Como se veria en memoria un
+  objeto de la clase Shape? Ocuparía un bloque de memoria contiguo que contiene dos variables de tipo int16_t 
+  para las coordenadas X e Y. Estas variables se almacenarían secuencialmente en la memoria, una despúes de la otra,
+  dado que no hay ningun otro dato en la clase Shape. Por lo tanto, un objeto de la clase Shape simplemente contendría
+  dos valores enteros de 16 bits consecutivos, representado la coordenadas X e Y, respectivamente. En ciertos casos
+  el relleno de la estructura debido a la alineación de memoria, pueden afectar como se ve exactamente en la memoria.
+
+  ¿Como se vería en memoria un objeto de la clase Rectangle? Se veria como un bloque contiguo que contiene tres
+  variables: dos variables de tipo int16_t para las coordenadas X e Yheredadas de la clase Shape, y una variable de tipo 
+  uint16_t para el ancho y otra para la altura del rectángulo. Las variables se almacenarían  secuencialmete en la 
+  memoria en el orden en que estan definidas en la estructura Rectangle, siendo primero las coordenadas X e Y
+  seguidas del ancho y la altura. Tambien el compilador se encargaria de rellenar para aegurar que las variables estén 
+  alineadas correctamente en la memoria.
+
+ 
 4. ¿Con qué dificultades me encontré y cómo las abordé?
+
+  R/= Ninguna hasta el momento, debo de continuar con el desarrollo de los ejercicios para ver si me topo con una.
+
 5. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
-6. ¿Qué he aprendido o reforzado en esta micro-sesión? 
+
+  R/= Falta mas información acerca de la herencia, para entenderlo. Hay que seguir haciendo los ejercicios.
+
+6. ¿Qué he aprendido o reforzado en esta micro-sesión?
+
+  R/= Ya se como luciria en memoria un objeto de la clase Shape y la clase Rectangle, aun falta mas por hacer. 
 
 #### Micro-sesión 2 (25 minutos)
 
