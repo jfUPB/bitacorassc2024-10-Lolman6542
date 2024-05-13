@@ -480,7 +480,7 @@ del resto pude seguir y no se presento otro problema.
 
   R/= Construi el siguiente codigo:
 
-  """ 
+  ``` c
   using System;
 
 // Clase base Shape
@@ -531,18 +531,53 @@ public class Rectangle : Shape
 }
 
   
-  """ C 
+  ``` 
+  Ahora compararemos esta versión en C# con la implementación original en C:
+
+  Sintaxis: Son diferentes, En C# se utiliza llaves {} para delimitar bloques de código, los puntos y comas ; 
+  al final de las declaraciones son obligatorios.
+
+  Constructores: En C# utilizan constructores para inicializar los objetos, lo cual es similar al enfoque en C con las funciones Shape_ctor 
+  y Rectangle_ctor. Sin embargo, en C# los contructores se llaman automáticamen al crear un objeto utilizando la palabra clave new.
+
+  Métodos: Los metodos en C# se definen dentro de las clases y pueden ser virtuales, lo que permite la sobrescritura en clases derivadas,
+  similar a los métodos en C con as funciones Shape_moveBy, Shape_getX y Shape_getY.
+
+  Herencia: En C#, la herenciase especifica utilizando la palabra clave :, similar a la forma en que se realiza en C con la estructura Rectangle
+  que contiene un miembro de tipo Shape. La clase derivada Rectangle hereda los miembros públicos y protegidos de la clase Shape.
+  
 
 2. ¿Con qué dificultades me encontré y cómo las abordé?
+
+  R/= Lo mas dificil fue pasar el codigo a otro lenguaje dado que no soy tan habil a la hora de programar,
+  de lo poco que supe lo hize y a la vez pedi ayuda a ChatGPT.
+
 3. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
+
+  R/= Estoy captando un poco mejor las cosas, per aun asi debo de continuar con la investigación.
+
 4. ¿Qué he aprendido o reforzado en esta micro-sesión?
+
+  R/=  La implementación y funcionamiento de la herencia en el lenguaje C.
 
 **Cierre de sesión:**
 
 5. ¿He alcanzado los objetivos planteados al inicio? Si no, ¿por qué y qué puedo mejorar?
+
+  R/= Sí, todo y gracias a los ejercicios que estoy haciendo en la fase de investigación de la Unidad 3.
+
 6. ¿Cuáles fueron los desafíos más significativos de hoy y cómo los superé?
+
+  R/= Sin duda fue pasar el codigo base en lenguaje C a C#, intente por mi cuenta pero al final
+  requeria ayuda de LA Inteligencia Artificial.
+
 7. Basado en el trabajo de hoy, ¿qué insights importantes he ganado?
+
+  R/= Solucionar el tema de la herencia en varios lenguajes y entender su funcionamiento.
+
 8. ¿Cuáles son los pasos siguientes para continuar avanzando en el proyecto?
+
+  R/= Hacer un diagrama del ejercicio anterior y avanzar en la investigacion de polimorfismo.
 
 
 ## Semana 11
