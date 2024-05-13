@@ -421,9 +421,28 @@ del resto pude seguir y no se presento otro problema.
 **Meta-aprendizaje:**
 
 1. ¿Qué he logrado en esta micro-sesión de trabajo?
+
+  R/= Continue con las preguntas del ejercicio de la herencia. ¿Que relación ves entre los dos objetos en terminos de
+  en cómo se ven en memoria? Ambs objetos tienen una relación de compooosición. Esto se debe a que la clase
+  Rectangle contiene un objeto de la clase Shape como miembro (super), en otras palabras, la estructura de Rectangle
+  contendría los datos  de un objeto Shape (es decir, coordenadas X e Y) junto con su propio conjunto de datos (ancho y altura),
+  todo en un bloque contiguo. Dando una relación entre un rectángulo y una forma en términos de diseño de software.
+  Tambien un Rectangle es un shape debido a que la clase Rectangle hereda todas las propiedades y comportamientos 
+  de la clase Shape e incluso puede tener sus propios atributos y comportamientos específicos de un rectángulo.
+  Aunque Rectangle contiene un objeto Shape como un miembro, lo que implica una relácion de composición. Llegando a
+  decir que un Rectangle tiene un Shape, en vez de ser uno.
+
 2. ¿Con qué dificultades me encontré y cómo las abordé?
+
+  R/= Hasta el momento todo va bien, su implementacion seria lo mas preocupante.
+
 3. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
+
+  R/= Aun no, debo de ver el polimorfismo, lo que sifnifica que debo de seguir investgando.
+
 4. ¿Qué he aprendido o reforzado en esta micro-sesión? 
+
+  R/=  Tengo claro como las clase Rectangle ereda de la clase Shape en el codigo del ejrcicio de la herencia.
 
 #### Micro-sesión 3 (25 minutos)
 
@@ -432,9 +451,24 @@ del resto pude seguir y no se presento otro problema.
 **Meta-aprendizaje:**
 
 1. ¿Qué he logrado en esta micro-sesión de trabajo?
+
+  R/= Respondi la ultima pregunta del ejercicio de la herencia ¿Qué está pasando en el siguiente código? (Shape *)r1.
+  El código, está realizando una conversión de tipo, convirtiendo un puntero r1 de tipo Rectangle a un puntero de tipo
+  shappe. Esto se conoce como "casting" y está indicando al compilador que interprete el puntero r1 como un puntero a un objeto de la clase Shape,
+  aunque técnicamente r1 es un puntero a un objeto de la clase Rectangle. Esta conversion es posible debido a la relación de herencia entre Rectangle
+  y Shape, donde Rectangle es una subclase de Shape.
+
 2. ¿Con qué dificultades me encontré y cómo las abordé?
+
+  R/= No habia caido en cuenta que esa funcion era un puntero, pero investigando logre responder la pregunta.
+
 3. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
+
+  R/= Incluso aunque haya avanzado, me falta aun el polimorfismo, entoces debo de avanzar en eso para llegar mi objetivo.
+
 4. ¿Qué he aprendido o reforzado en esta micro-sesión? 
+
+  R/= La herencia es la habilidad de definir una nueva clase basada en clases existentes para reusar y organizar codigo.
 
 #### Micro-sesión 4. (25 minutos)
 
@@ -443,6 +477,62 @@ del resto pude seguir y no se presento otro problema.
 **Meta-aprendizaje:**
 
 1. ¿Qué he logrado en esta micro-sesión de trabajo?
+
+  R/= Construi el siguiente codigo:
+
+  """ 
+  using System;
+
+// Clase base Shape
+public class Shape
+{
+    public int x;
+    public int y;
+
+    // Constructor de Shape
+    public Shape(int x, int y)
+    {
+        this.x = x;
+        this.y = y;
+    }
+
+    // Método para mover la forma
+    public virtual void MoveBy(int dx, int dy)
+    {
+        x += dx;
+        y += dy;
+    }
+
+    // Método para obtener la coordenada x
+    public int GetX()
+    {
+        return x;
+    }
+
+    // Método para obtener la coordenada y
+    public int GetY()
+    {
+        return y;
+    }
+}
+
+// Clase derivada Rectangle
+public class Rectangle : Shape
+{
+    public int width;
+    public int height;
+
+    // Constructor de Rectangle
+    public Rectangle(int x, int y, int width, int height) : base(x, y)
+    {
+        this.width = width;
+        this.height = height;
+    }
+}
+
+  
+  """ C 
+
 2. ¿Con qué dificultades me encontré y cómo las abordé?
 3. ¿Estoy más cerca de alcanzar el objetivo de la sesión? ¿Qué falta por hacer?
 4. ¿Qué he aprendido o reforzado en esta micro-sesión?
