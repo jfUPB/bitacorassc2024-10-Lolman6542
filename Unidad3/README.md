@@ -1,4 +1,4 @@
-# Bitácora de aprendizaje
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/2db049dd-f220-452c-a9a2-11bcfdf24bd2)# Bitácora de aprendizaje
 
 ## ¿Cómo voy?
 
@@ -263,7 +263,7 @@ R/= Me dedique hacer el ejercicio 1 dado que me lo habia saltado en la anterior 
 
 1. ¿Qué he logrado en esta micro-sesión de trabajo?
 
-  R/= Para el ejercicio 3 hice el ejemplo el cial encapsulamos las propiedades de un rectangulo y un circulo dentro de
+  R/= Para el ejercicio 3 hice el ejemplo el cual encapsulamos las propiedades de un rectangulo y un circulo dentro de
   las dentro de las estructuras Rectangle y Circle, respectivamente. Ademas implemente un metodo intersect para verificar   
   si los dos objetos se intersectan entre sí. En el bucle principal del programa dibujamos el rectangulo y el círculo  
   en la ventana de SDL y cambimos el color de la línea que los conecta dependiendo de si se intersectan o no.
@@ -586,19 +586,94 @@ public class Rectangle : Shape
 
 1. ¿Cuál será el propósito de la sesión de hoy?
 
-> Escribe aquí
+> Terminar los ejercicios relacionados al encapsulamiento (se me olvidaron) mas en concreto, el ejercicio 7. Luego hacer
+  el diagrama de la herencia, para poder avanzar hacia polimorfismo.
+
+  Ejemplo de encapsulamiento en lenguaje C:
+
+  ```c
+using System;
+
+// Clase Shape
+public class Shape
+{
+    private int x;
+    private int y;
+
+    // Constructor
+    public Shape(int x, int y)
+    {
+        this.x = x;
+        this.y = y;
+    }
+
+    // Método para mover la figura
+    public void MoveBy(int dx, int dy)
+    {
+        x += dx;
+        y += dy;
+    }
+
+    // Getter para la coordenada X
+    public int GetX()
+    {
+        return x;
+    }
+
+    // Getter para la coordenada Y
+    public int GetY()
+    {
+        return y;
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Crear instancias de Shape
+        Shape s1 = new Shape(0, 1);
+        Shape s2 = new Shape(-1, 2);
+
+        // Imprimir coordenadas iniciales
+        Console.WriteLine($"Shape s1(x={s1.GetX()},y={s1.GetY()})");
+        Console.WriteLine($"Shape s2(x={s2.GetX()},y={s2.GetY()})");
+
+        // Mover las figuras
+        s1.MoveBy(2, -4);
+        s2.MoveBy(1, -2);
+
+        // Imprimir coordenadas después de mover
+        Console.WriteLine($"Shape s1(x={s1.GetX()},y={s1.GetY()})");
+        Console.WriteLine($"Shape s2(x={s2.GetX()},y={s2.GetY()})");
+    }
+}
+
+  ```
+
+  ![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/5dcf222d-fb8a-4a3e-b274-e7bbc2326252)
+
+  Ahora presentera en el siguiente pantallazo el diagrama de clase de una herencia (basado en C#):
+  
+  ![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/23197084-9e83-4578-a5f3-eb23d9ed6247)
+
  
 2. ¿Cuáles fueron los desafíos más significativos de la sesión y cómo los superé?
 
-> Escribe aquí
+> No hubo niguna dificultad tanto el digrama como el codigo en C# (ejercicio 7), ya que en el diagrama logre entender que Shape es la clase base que tiene dos miembros
+  de datos, X e Y, representado las coordenadas de la forma en un plano bidimensional, Rectangle es una clase derivada de Shape.
+  Contiene todos los miembros de Shape (x e y) como parte de su propia definición (super), ademas de tener dos miembros adicionales 
+  para representar las dimensiones del rectángulo. La relación entre Rectangle y Shape es de herencia, donde Rectangle
+  hereda todas las características de Shape y ademas tiene sus propias características adicionales.
 
 3. Basado en el trabajo de la sesión, ¿Qué aprendí o qué conclusión saco o cuál es la síntesis?
 
-> Escribe aquí
+>  Reforce por completo todo el tema de la herencia para poder avanzar a la siguiente etapa de la investigación.
+   Como tal Rectangle hereda todas la caracteristicas de Shape y tiene caracteristicas adicionales.
 
 4. ¿Cuáles son los pasos siguientes para continuar avanzando en el proyecto?
 
-> Escribe aquí
+> Debo de terminar y/o empezar la fase de Polimorfismo de lo ejercicios para tener todo claro, acerca de la Unidad 3.
 
 ### Sesión 2
 
