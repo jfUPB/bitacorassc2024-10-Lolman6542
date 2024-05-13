@@ -1,8 +1,8 @@
-![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/2db049dd-f220-452c-a9a2-11bcfdf24bd2)# Bitácora de aprendizaje
+# Bitácora de aprendizaje
 
 ## ¿Cómo voy?
 
-- [ ] Terminé la fase de investigación. 
+- [Sí] Terminé la fase de investigación. 
 - [ ] Terminé la fase de aplicación.
 - [ ] Terminé la fase de compartir.
 
@@ -679,19 +679,41 @@ class Program
 
 1. ¿Cuál será el propósito de la sesión de hoy?
 
-> Escribe aquí
+> Indagar e investigar sobre el concepto de Polimorfismo
+
+Se refiere a la capacidad de objetos de diferentes clases de responder al mismo mensaje (llamada a un método) 
+de diferentes maneras. Esto permite que objetos de distintas clases puedan compartir un mismo nombre de método, 
+pero cada clase puede implementar ese método de forma específica según sus propias necesidades y comportamientos,
+todo mientras se hace en tiempo de ejeccución del programa.
+
+Polimorfismo de tiempo de compilación (estático): También conocido como sobrecarga de método o sobrecarga de operador.
+En este tipo de polimorfismo, se elige qué método llamar durante la fase de compilación basándose en el tipo estático
+de la variable o el objeto. Esto significa que el compilador decide qué versión del método usar según la información 
+disponible en tiempo de compilación.
+
+Polimorfismo de tiempo de ejecución (dinámico): También conocido como sobrescritura de método. 
+En este tipo de polimorfismo, el método a llamar se decide en tiempo de ejecución basándose en el tipo dinámico 
+del objeto (el tipo real del objeto en tiempo de ejecución). Esto permite que un objeto se comporte 
+de diferentes maneras según su tipo concreto en tiempo de ejecución.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/37a2965f-8dc9-4b1e-81fa-52916dcdf280)
+
+Demuestra cómo implementar polimorfismo en C utilizando punteros a funciones y una tabla de punteros a funciones 
+para simular métodos virtuales y comportamientos polimórficos en un entorno orientado a objetos.
  
 2. ¿Cuáles fueron los desafíos más significativos de la sesión y cómo los superé?
 
-> Escribe aquí
+> Hasta el momento tenia algo confuso el tema debido a su similitud "muy vaga" con herencia, pero
+gracias al una re-leectura de herencia y de este concepto ya me quedo claro que son distintas.
 
 3. Basado en el trabajo de la sesión, ¿Qué aprendí o qué conclusión saco o cuál es la síntesis?
 
-> Escribe aquí
+> Me quedo claro que el Polimorfismo tiene la capacidad de responder en tiempo real, a muchas ventas o
+interfaces de manera distintas cada una.
 
 4. ¿Cuáles son los pasos siguientes para continuar avanzando en el proyecto?
 
-> Escribe aquí
+> Debo de continuar con los otros Ejercicios de la fase de Investigación, debo de comparar y analizar los codigos.
 
 ### Sesión 3
 
