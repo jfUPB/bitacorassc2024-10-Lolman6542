@@ -824,19 +824,124 @@ ambos lenguajes.
 
 1. ¿Cuál será el propósito de la sesión de hoy?
 
-> Escribe aquí
+> Me encargue de hacer el ejercicio 15 mostrando un ejemplo de Interfaces
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/c19038a9-61ab-4a69-8a72-10888b7c1a3b)
+
+
+```c
+#include <stdio.h>
+#include <stdint.h>  // Necesario para uint32_t
+#include <stdlib.h>
+
+// Definición de la interfaz para operaciones de forma
+typedef struct IShapeOperations {
+    uint32_t(*area)();
+    void (*draw)();
+} IShapeOperations;
+
+// Definición de la clase base Shape
+typedef struct Shape {
+    int x;
+    int y;
+    IShapeOperations* operations;
+} Shape;
+
+// Constructor de Shape
+void Shape_ctor(Shape* me, int x, int y, IShapeOperations* operations) {
+    me->x = x;
+    me->y = y;
+    me->operations = operations;
+}
+
+// Clase Rectangle
+typedef struct Rectangle {
+    Shape base;
+    uint32_t width;
+    uint32_t height;
+} Rectangle;
+
+// Constructor de Rectangle
+void Rectangle_ctor(Rectangle* me, int x, int y, uint32_t width, uint32_t height, IShapeOperations* operations) {
+    Shape_ctor((Shape*)me, x, y, operations);
+    me->width = width;
+    me->height = height;
+}
+
+// Métodos de área y dibujo para Rectangle
+uint32_t Rectangle_area(Rectangle* me) {
+    return me->width * me->height;
+}
+
+void Rectangle_draw(Rectangle* me) {
+    printf("Drawing Rectangle at (%d, %d) with width=%u and height=%u\n", me->base.x, me->base.y, me->width, me->height);
+}
+
+// Clase Circle
+typedef struct Circle {
+    Shape base;
+    uint32_t radius;
+} Circle;
+
+// Constructor de Circle
+void Circle_ctor(Circle* me, int x, int y, uint32_t radius, IShapeOperations* operations) {
+    Shape_ctor((Shape*)me, x, y, operations);
+    me->radius = radius;
+}
+
+// Métodos de área y dibujo para Circle
+uint32_t Circle_area(Circle* me) {
+    return 3 * me->radius * me->radius;
+}
+
+void Circle_draw(Circle* me) {
+    printf("Drawing Circle at (%d, %d) with radius=%u\n", me->base.x, me->base.y, me->radius);
+}
+
+// Función para dibujar una forma
+void drawShape(Shape* shape) {
+    shape->operations->draw(shape);
+}
+
+int main() {
+    // Definición de las operaciones para Rectangle
+    IShapeOperations rectOperations = { (uint32_t(*)())Rectangle_area, (void (*)())Rectangle_draw };
+
+    // Creación de un Rectangle
+    Rectangle rect;
+    Rectangle_ctor(&rect, 0, 0, 10, 5, &rectOperations);
+
+    // Dibujar el Rectangle
+    drawShape((Shape*)&rect);
+
+    // Definición de las operaciones para Circle
+    IShapeOperations circleOperations = { (uint32_t(*)())Circle_area, (void (*)())Circle_draw };
+
+    // Creación de un Circle
+    Circle circle;
+    Circle_ctor(&circle, 3, 3, 7, &circleOperations);
+
+    // Dibujar el Circle
+    drawShape((Shape*)&circle);
+
+    return 0;
+}
+
+
+```
+> 
  
 2. ¿Cuáles fueron los desafíos más significativos de la sesión y cómo los superé?
 
-> Escribe aquí
+>  Como tal tube que simular el concepto de interfaces y clases en C utilizando punteros
+ a funciones para lograr comportamientos polimórficos.
 
 3. Basado en el trabajo de la sesión, ¿Qué aprendí o qué conclusión saco o cuál es la síntesis?
 
-> Escribe aquí
+> En como implementar las interfaces con ayuda de los punteros.
 
 4. ¿Cuáles son los pasos siguientes para continuar avanzando en el proyecto?
 
-> Escribe aquí
+> Hacer El ultimo ejercicio de la fase de investigación, para asi concluirla.
 
 ### Sesión 3
 
