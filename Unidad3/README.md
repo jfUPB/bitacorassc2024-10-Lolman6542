@@ -947,19 +947,145 @@ int main() {
 
 1. ¿Cuál será el propósito de la sesión de hoy?
 
-> Escribe aquí
+> Voy analizar el siguiente codigo:
+```c
+/*
+* This code is based on C# code from this site:
+* https://refactoring.guru/design-patterns/command/csharp/example
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct ICommand ICommand;
+typedef struct Receiver Receiver;
+typedef struct SimpleCommand SimpleCommand;
+typedef struct ComplexCommand ComplexCommand;
+
+/*****************************************************
+* Interface
+******************************************************/
+struct ICommand {
+    void (*execute)(ICommand *);
+};
+
+void Execute(ICommand *me){
+    me->execute(me);
+}
+
+/*****************************************************
+* Class
+******************************************************/
+struct Receiver {
+    void (*doSomething)(Receiver *, char *);
+    void (*doSomethingElse)(Receiver *, char *);
+};
+
+
+void Receiver_ctor(Receiver *me, void (*doSomething)(Receiver *, char *), void (*doSomethingElse)(Receiver *, char *) ){
+    me->doSomething = doSomething;
+    me->doSomethingElse = doSomethingElse;
+}
+
+void Receiver_doSomething(Receiver *me, char *a) {
+    printf("Receiver: Working on (%s).\n", a);
+}
+
+void Receiver_doSomethingElse(Receiver *me, char *b) {
+    printf("Receiver: Also working on (%s).\n", b);
+}
+
+/*****************************************************
+* Class
+******************************************************/
+
+struct SimpleCommand {
+    ICommand base;
+    char* payload;
+};
+
+void SimpleCommand_execute(ICommand *command) {
+    SimpleCommand *me = (SimpleCommand *)command;
+    printf("SimpleCommand: See, I can do simple things like printing (%s)\n", me->payload);
+}
+
+void SimpleCommand_ctor(SimpleCommand *me,char *payload) {
+    me->base.execute = SimpleCommand_execute;
+    me->payload = payload;
+}
+
+/*****************************************************
+* Class
+******************************************************/
+struct ComplexCommand {
+    ICommand base;
+    Receiver *receiver;
+    char *a;
+    char *b;
+};
+
+void ComplexCommand_execute(ICommand *command) {
+    ComplexCommand *me = (ComplexCommand*)command;
+    printf("ComplexCommand: Complex stuff should be done by a receiver object.\n");
+    me->receiver->doSomething(me->receiver, me->a);
+    me->receiver->doSomethingElse(me->receiver, me->b);
+}
+
+void ComplexCommand_ctor(ComplexCommand *me, Receiver *receiver, char *a, char *b){
+    me->base.execute = ComplexCommand_execute;
+    me->receiver = receiver;
+    me->a = a;
+    me->b = b;
+}
+
+int main() {
+
+    Receiver *receiver = malloc( sizeof(Receiver) );
+    Receiver_ctor(receiver,Receiver_doSomething,Receiver_doSomethingElse);
+
+    SimpleCommand  *simpleCommand =  malloc(sizeof(SimpleCommand));
+    SimpleCommand_ctor(simpleCommand,"Say Hi!");
+
+    ComplexCommand *complexCommand = (ComplexCommand*)malloc(sizeof(ComplexCommand));
+    ComplexCommand_ctor(complexCommand, receiver, "Send email", "to John");
+
+    ICommand* commands[2] = {(ICommand *) simpleCommand, (ICommand *)complexCommand};
+
+    for (int i = 0; i < 2; i++) {
+       Execute(commands[i]);
+    }
+
+    free(simpleCommand);
+    free(complexCommand);
+    free(receiver);
+
+    return 0;
+}
+```
+
+> Encapsula acciones como objetos, utiliza polimorfismo para ejecutar diferentes comandos a través de una interfaz común 
+y organiza los datos en memoria de acuerdo con la estructura de las clases y sus relaciones.
+
+> Zona de Código se encuentran las instrucciones y estructuras de datos estáticos. 
+  Text (Texto) Contiene las instrucciones de la función main y otras funciones definidas en el código.
+  BSS y Data No están representados explícitamente en el diagrama, pero podrían contener datos estáticos como variables globales o estáticas.
+  Heap con los simplecommmands y complexcommands. Stack contiene los Main y commands.
+  
+> El polimorfismo permite que objetos de diferentes clases se puedan tratar de manera uniforme a través de una interfaz común.  
  
 2. ¿Cuáles fueron los desafíos más significativos de la sesión y cómo los superé?
 
-> Escribe aquí
+> En cómo se organiza la memoria en un programa, incluyendo el stack, heap y otras secciones. 
+  Separando cada seccion para ver en donde pertenecian.
 
 3. Basado en el trabajo de la sesión, ¿Qué aprendí o qué conclusión saco o cuál es la síntesis?
 
-> Escribe aquí
+> Que debo de prestar mas atención en donde pueden haber cambios drasticos o 
+  ver que es lo que me imprime la consola para que no haya errores de memoria.
 
 4. ¿Cuáles son los pasos siguientes para continuar avanzando en el proyecto?
 
-> Escribe aquí
+> Ahora mismo lo mejor seria hecharle un repaso otra vez al concepto. y ver que puedo planear...
 
 ## Semana 13
 
