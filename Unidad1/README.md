@@ -667,9 +667,7 @@ blanco. Tengo que ver que puedo hacer para solucionar el problema.
  
 ![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/f1df27fe-64b4-4855-88a9-c5d355337ee8)
 
-## Semana 5
-
-### Sesión 1
+## Entrega del Reto
 
 #### Micro sesión: Entrega del Reto
 
