@@ -797,19 +797,28 @@ del desafio.
 
 1. ¿Cuál será el propósito de la sesión de hoy?
 
-> Escribe aquí
+> Realize el diagrama del arbol del ejercicio del polimorfismo.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/4cde50a7-bb4e-4c36-9114-ab936802b64f)
+
+
+> Tambien basado a un codigo que habia en el ejercicio 12, este código es una implementación básica de un sistema de 
+clases en C# para representar formas geométricas. Cada forma (rectángulo, círculo) hereda de la clase base Shape, 
+lo que permite compartir comportamientos comunes y acceder a métodos específicos de cada forma a través de la interfaz IShapeOperations.
  
 2. ¿Cuáles fueron los desafíos más significativos de la sesión y cómo los superé?
 
-> Escribe aquí
+> En estos momento no me encotre con niguna dificultad en el trancurso de la investigacion, aunque no estoy tan seguro
+de su implemetacion.
 
 3. Basado en el trabajo de la sesión, ¿Qué aprendí o qué conclusión saco o cuál es la síntesis?
 
-> Escribe aquí
+> Se finalizo el refuerzo sobre el polimorfismo dejando claro su funcionamiento de este en 
+ambos lenguajes.
 
 4. ¿Cuáles son los pasos siguientes para continuar avanzando en el proyecto?
 
-> Escribe aquí
+> Hacer los ultimos puntos de la fase de investigacion aca en la bitacora
 
 ### Sesión 2
 
