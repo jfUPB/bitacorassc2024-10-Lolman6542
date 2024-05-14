@@ -679,26 +679,19 @@ class Program
 
 1. ¿Cuál será el propósito de la sesión de hoy?
 
-> Indagar e investigar sobre el concepto de Polimorfismo
-
+> Indagar e investigar sobre el concepto de Polimorfismo.
 Se refiere a la capacidad de objetos de diferentes clases de responder al mismo mensaje (llamada a un método) 
 de diferentes maneras. Esto permite que objetos de distintas clases puedan compartir un mismo nombre de método, 
 pero cada clase puede implementar ese método de forma específica según sus propias necesidades y comportamientos,
 todo mientras se hace en tiempo de ejeccución del programa.
 
-Polimorfismo de tiempo de compilación (estático): También conocido como sobrecarga de método o sobrecarga de operador.
-En este tipo de polimorfismo, se elige qué método llamar durante la fase de compilación basándose en el tipo estático
-de la variable o el objeto. Esto significa que el compilador decide qué versión del método usar según la información 
-disponible en tiempo de compilación.
-
-Polimorfismo de tiempo de ejecución (dinámico): También conocido como sobrescritura de método. 
-En este tipo de polimorfismo, el método a llamar se decide en tiempo de ejecución basándose en el tipo dinámico 
+> Polimorfismo de tiempo de compilación, se elige qué método llamar durante la fase de compilación basándose en el tipo estático
+de la variable o el objeto. Polimorfismo de tiempo de ejecución, el método a llamar se decide en tiempo de ejecución basándose en el tipo dinámico 
 del objeto (el tipo real del objeto en tiempo de ejecución). Esto permite que un objeto se comporte 
 de diferentes maneras según su tipo concreto en tiempo de ejecución.
-
 ![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/37a2965f-8dc9-4b1e-81fa-52916dcdf280)
 
-Demuestra cómo implementar polimorfismo en C utilizando punteros a funciones y una tabla de punteros a funciones 
+> Demuestra cómo implementar polimorfismo en C utilizando punteros a funciones y una tabla de punteros a funciones 
 para simular métodos virtuales y comportamientos polimórficos en un entorno orientado a objetos.
  
 2. ¿Cuáles fueron los desafíos más significativos de la sesión y cómo los superé?
@@ -719,19 +712,83 @@ interfaces de manera distintas cada una.
 
 1. ¿Cuál será el propósito de la sesión de hoy?
 
-> Escribe aquí
+> Seguir trabajando la fase de investigación, en el cual me encargare de hacer el ejrecicio 13.
+Aca dejo puesto el codigo que estube creando en C#:
+
+```c
+using System;
+
+// Interfaz para operaciones de forma
+public interface IShapeOperations
+{
+    uint Area();
+    void Draw();
+}
+
+// Clase base Shape
+public class Shape
+{
+    protected int x;
+    protected int y;
+    protected IShapeOperations operations;
+
+    // Constructor de Shape
+    public Shape(int x, int y, IShapeOperations operations)
+    {
+        this.x = x;
+        this.y = y;
+        this.operations = operations;
+    }
+}
+
+// Clase Rectangle
+public class Rectangle : Shape
+{
+    private uint width;
+    private uint height;
+
+    // Constructor de Rectangle
+    public Rectangle(int x, int y, uint width, uint height, IShapeOperations operations) 
+        : base(x, y, operations)
+    {
+        this.width = width;
+        this.height = height;
+    }
+}
+
+// Clase Circle
+public class Circle : Shape
+{
+    private uint radius;
+
+    // Constructor de Circle
+    public Circle(int x, int y, uint radius, IShapeOperations operations) 
+        : base(x, y, operations)
+    {
+        this.radius = radius;
+    }
+}
+```
+> Se utiliza una interfaz iShapeOperations para definir las operaciones comunes de una forma.
+> La clase base Shape cpntiene propiedades X e Y para representar las coordenadas de una forma, asi como una
+referencia a una interfaz IshapeOperations para las operaciones de forma.
+> La clase Rectangle hereda de Shape y agrega propiedades adicionales width y height para representar
+las dumensiones del rectángulo.
+> La clase Circle también hereda de Shape y agrega la propiedad radius para representar el radio del círculo.
+
  
 2. ¿Cuáles fueron los desafíos más significativos de la sesión y cómo los superé?
 
-> Escribe aquí
+> Fue el traslado del codigo a lenguaje C#, recurrir a videos de youtube para ver ejemplos de estos.
 
 3. Basado en el trabajo de la sesión, ¿Qué aprendí o qué conclusión saco o cuál es la síntesis?
 
-> Escribe aquí
+> He reforzado la implementación del polimorfismo y he intertar usar el tema en pong.
 
 4. ¿Cuáles son los pasos siguientes para continuar avanzando en el proyecto?
 
-> Escribe aquí
+>  Ya me encuentro cada vez mas cerca de la linea de meta para finalizar la fase de investigación y ver que puedo hacer
+del desafio.
 
 
 ## Semana 12
