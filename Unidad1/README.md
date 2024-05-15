@@ -722,5 +722,12 @@ La pantalla en blanco/borrada al presionar la tecla Z:
 ![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/534360a6-62a6-48b0-830d-a01bbc663b62)
 
 
+Diagrama de Flujo para el control Condicional:
 
+
+![diagrama de flujo para el control condicional](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/3dee551f-02e1-40cb-a710-fbaf5ea5d5dd)
+
+Diagrama de flujo para el ciclo que pinta de negro:
+
+![Diagrama de flujo para el ciclo que pinta en negro](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/23372bc8-64cf-4691-8080-d9f5ced84f75)
 
