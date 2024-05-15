@@ -132,7 +132,17 @@ Ejercicio 5
 
 1. Ahora mismo vamos hacer un analisis al codigo con Hilos.
 
-2.
+2. Por un momento pense que el programa iba funcionar, pero no ocurrio nada
+   y esto era lo que debia de ocurrir. Esto podría deberse a la rapidez con la que
+   los hilos completan su tarea de imprimir los caracteres.
+   Como tal la funcion de ese programa era hacer que uno de los hilos imprime el carácter 'a' 30,000 veces, mientras que el otro hilo imprime el carácter 'b' 20,000 veces.
+
+3.
+
+4. Pues que el programa no iba a mostrar nada en la terminal debido a la ejecucion
+   rapida de cada hilo.
+
+5. Siempre es útil agregar una pausa o retardo en la ejecución de los hilos si deseas ver la salida de manera más controlada. Esto se puede lograr utilizando funciones como sleep o usleep, como mencioné en la respuesta anterior, para ralentizar la velocidad de impresión de los caracteres y permitir que se vean en la terminal.
 
 
 #### Sesión 2
