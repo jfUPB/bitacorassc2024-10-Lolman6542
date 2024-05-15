@@ -120,7 +120,7 @@ utilizando la función pthread_create para ejecutar la función imprime_x.
 La funcion imprime_x esta imprimiendo un bucle infinito de la letra x y el programa principal
 main impreme un bucle infinito de la letro o. Esto significa que el programa tiene dos hilos en funcionamiento: uno imprime 'x' continuamente y el otro imprime 'o' continuamente.
 
-3. El enlace del codigo main.c https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/blob/588002e32a82f123b35737ee8818cf4916f95f3c/Unidad4/main.c
+3. El enlace del codigo main.c Unidad4/main.c
 
 4. Como tal el resultado de la activadad es que el programa seguirá ejecutándose hasta que se interrumpa con CRTL+C en la terminal, ya que ambos hilos son bucles infinitos.
 
