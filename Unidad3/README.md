@@ -1093,19 +1093,34 @@ y organiza los datos en memoria de acuerdo con la estructura de las clases y sus
 
 1. ¿Cuál será el propósito de la sesión de hoy?
 
-> Escribe aquí
+> Ahora mismo lo mejor seria revisar los conceptos:
+Encapsulamiento consiste en ocultar los detalles internos de un objeto y exponer solo las partes necesarias para interactuar con él.
+Se logra mediante el uso de modificadores de acceso como public, private y protectedpara controlar el acceso a los miembros de una clase.
+Proporciona beneficios como la protección de datos, la simplificación de la interfaz de uso de objetos y la facilitación del mantenimiento 
+del código al poder cambiar internamente la implementación sin afectar a los usuarios externos.
+
+> Herencia permite a una clase heredar los atributos y métodos de otra clase.
+Permite la reutilización de código al evitar la duplicación de funcionalidades comunes entre clases.
+La clase derivada puede agregar nuevos miembros o modificar el comportamiento de los miembros heredados
+mediante la sobrescritura de métodos o la adición de nuevos métodos y atributos.
+
+> Polimorfismo se refiere a la capacidad de un objeto de comportarse de múltiples formas. Permite tratar objetos de clases diferentes
+ de manera uniforme a través de referencias a la clase base, lo que facilita la escritura de código genérico y flexible.
+
+>Estos conceptos son fundamentales para el diseño de software orientado a objetos eficiente, modular y fácil de mantener.
  
 2. ¿Cuáles fueron los desafíos más significativos de la sesión y cómo los superé?
 
-> Escribe aquí
+> Hasta el momento no fue ninguno, todo lo que hice fue volver a buscar y repasar los tres conceptos mencionados.
 
 3. Basado en el trabajo de la sesión, ¿Qué aprendí o qué conclusión saco o cuál es la síntesis?
 
-> Escribe aquí
+> El encapsulamiento protege la implementación interna, la herencia permite la reutilización de código
+y la especialización de clases, y el polimorfismo permite tratar objetos de manera más generalizada y flexible.
 
 4. ¿Cuáles son los pasos siguientes para continuar avanzando en el proyecto?
 
-> Escribe aquí
+> Ahora mismo lo mejor seria hacer una planeacion y/o seguir investigando cosas del tema.
 
 ### Sesión 2
 
