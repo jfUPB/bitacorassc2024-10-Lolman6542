@@ -130,7 +130,9 @@ main impreme un bucle infinito de la letro o. Esto significa que el programa tie
 
 Ejercicio 5
 
-1. 
+1. Ahora mismo vamos hacer un analisis al codigo con Hilos.
+
+2.
 
 
 #### Sesión 2
