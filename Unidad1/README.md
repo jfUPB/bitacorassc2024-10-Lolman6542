@@ -719,7 +719,8 @@ La pantalla en negro al presionar la tecla P:
 
 La pantalla en blanco/borrada al presionar la tecla Z:
 
-![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/534360a6-62a6-48b0-830d-a01bbc663b62)
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/dfa8b7aa-a5bb-4249-b23a-1af1cba2804e)
+
 
 
 Diagrama de Flujo para el control Condicional:
