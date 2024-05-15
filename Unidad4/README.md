@@ -112,7 +112,25 @@ Dar a conocer en cómo funcionan los programas y procesos en un sistema operativ
 
 Ejercicio 4 
 
+1. Estamos siendo testigos de la creacion de un ejecutable desde codespace y con la ayuda de la
+terminal de comandos.
 
+2. Ahora lo que esta ocrruiendo es que el programa principal Main crea un hilo adicional 
+utilizando la función pthread_create para ejecutar la función imprime_x.
+La funcion imprime_x esta imprimiendo un bucle infinito de la letra x y el programa principal
+main impreme un bucle infinito de la letro o. Esto significa que el programa tiene dos hilos en funcionamiento: uno imprime 'x' continuamente y el otro imprime 'o' continuamente.
+
+3. El enlace del codigo main.c https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/blob/588002e32a82f123b35737ee8818cf4916f95f3c/Unidad4/main.c
+
+4. Como tal el resultado de la activadad es que el programa seguirá ejecutándose hasta que se interrumpa con CRTL+C en la terminal, ya que ambos hilos son bucles infinitos.
+
+5. El uso del la terminal, junto con sus comandos, la ubicacion/desplazamientos por carpetas
+   y pues la creacion de ejecutables.
+
+
+Ejercicio 5
+
+1. 
 
 
 #### Sesión 2
