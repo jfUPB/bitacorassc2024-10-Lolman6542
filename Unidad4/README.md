@@ -110,6 +110,10 @@ Los resultados de las actividades fueron las preguntas que fueron resueltas o re
 
 Dar a conocer en cómo funcionan los programas y procesos en un sistema operativo y a su vez optimizar el rendimiento, resolver problemas rapido y el diseño de Software optimo.
 
+Ejercicio 4 
+
+
+
 
 #### Sesión 2
 
