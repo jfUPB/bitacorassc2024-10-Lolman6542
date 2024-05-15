@@ -669,16 +669,58 @@ blanco. Tengo que ver que puedo hacer para solucionar el problema.
 
 ## Entrega del Reto
 
-#### Micro sesión: Entrega del Reto
+#### Micro sesión 1: Entrega del Reto
+ 
+Para esta sesion me enfoque completamente a completar el reto luego de tener las cosas
+claras en la sesion pasada con mis compañeros.
 
-![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/cfd17fe7-e9af-4a76-bdf1-a473d4728447)
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/3c046ed2-f564-4cc3-ae34-20b030ca4d6f)
 
-Al fin descubri cual era mi problema, y resulta que me faltaba tres lineas de codigos
-los cuales concistian en la creación del bucle para pintar en negro la pantalla y junto 
-con su almacenacion en patalla. Lo tenia pero para borrar la pantalla/pintar en blanco. 
-Ese uno otros problemas que me faltaban por resolver, el otro era que se me estaba pasando en 
-crear un bucle aparte para pintar la pantalla en blanco, la deje como CocinandoBucleA.
 
-![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/7a574aa8-c06e-40c7-ac61-67410b8dcfa0)
+Hice ajustes para que el codigo leyera los valores que necesito registrar, que en este caso son el @80 es la letra P
+que imprimira la pantalla completa y la letra Z es el @90 que borrara o dejara la pantalla en blanco.
+
+
+#### Micro sesión 2: 
+
+Para definir esta parte seria de la siguiente manera: Con @screen Cargamos la dirrecion de memoria de la pantalla en el registro
+A. M=0: sirve para que se estavlezca el contenido de la direccion de memoria de la pantalla en 0, que suele representar el color blanco.
+@Inicio: cargamos la etiqueta de la subrutina "Inicio" en el registro A. 0;JMP: salta incondicionalmente a la direccion de memoria de la etiqueta 
+"Incio", lo que marca el final de la subrutina. PintarNegro:
+
+@Screen: Cargamos la direccion de memoria de la pantalla en el registro A. M=-1: Establece el contenido de la dirección de memoria de la pantalla
+-1, que suele representar el color negro. @Inicio: carga la etiqueta de la subrutina "Inicio" en el registro A.
+0; JMP: Salta incondicionalmente a la direccion de memoria de la etiqueta "Inicio", lo que marca el final de la subrutina.
+
+#### Micro sesión 3:
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/25d78a92-ffc9-4ea9-ae7a-a9b7fd02d2b1)
+ 
+En eesta parte establecemos el bucle el cual vamos a utilizarr la variable para pintar los pixeles de negro en la pantalla, y luego saltamos
+de vuelta al inicio del bucle hasta que cumplamos la condidicion.
+
+#### Micro sesión 4: 
+ 
+ ![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/0a5a2f80-b9a8-466a-b651-e6f62aa19eaf)
+
+Hacemos lo mismo para el bucle de la pantalla en blanco
+
+
+#### Micro sesión 5:
+
+Para el cierre mostrare que si funciona en el CPUEmulator, junto con el mapa.
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/7954b877-a099-479b-bd93-705272067884)
+
+La pantalla en negro al presionar la tecla P:
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/f4d2f877-c030-4548-92ef-9b1df2f502f7)
+
+
+La pantalla en blanco/borrada al presionar la tecla Z:
+
+![image](https://github.com/jfUPB/bitacorassc2024-10-Lolman6542/assets/127360762/534360a6-62a6-48b0-830d-a01bbc663b62)
+
+
 
 
